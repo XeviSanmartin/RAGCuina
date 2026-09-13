@@ -9,6 +9,7 @@ __pycache__/
 .secrets/
 
 # Dades i artefactes generats, preservant les carpetes buides
+.rag/
 docs/*
 !docs/.gitkeep
 data/*

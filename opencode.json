@@ -1,0 +1,16 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "mcp-local-rag": {
+      "type": "local",
+      "command": ["npx", "-y", "mcp-local-rag"],
+      "enabled": true,
+      "timeout": 120000,
+      "environment": {
+        "BASE_DIR": "./docs",
+        "DB_PATH": "./.rag/lancedb",
+        "CACHE_DIR": "./.rag/models"
+      }
+    }
+  }
+}
