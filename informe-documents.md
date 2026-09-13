@@ -1047,1024 +1047,1024 @@ Les mostres es mostren com `unitat: caràcters`; `mitjana` és la mitjana de les
 
 ## Decisió d'ingesta
 
-| Fitxer | Format | Text o escanejat | Format suportat? | Acció |
-| --- | --- | --- | --- | --- |
-| `.gitkeep` | SENSE EXTENSI? | no aplicable | no | descartar |
-| `Aliments/AVE QUE VUELA....pdf` | PDF | text | sí | ingerir |
-| `Aliments/Aguacate.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/BERBERECHOS.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Bacallà/Bacalao Recetas de Portugal.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Bacallà/Bacalhau para Todos.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Bacallà/Biblioteca Lecturas 30 recetas en 30 minutos Bacalao.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Bacallà/Toma bacalao.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Bacallà/desktop.ini` | INI | no aplicable | no | descartar |
-| `Aliments/Bolets/8ª Jornadas gastronómicas de las setas y hongos.pdf` | PDF | text | sí | ingerir |
-| `Aliments/Bolets/Comer bien Setas y hongos.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Bolets/Jaume Prat Setas Del bosque a la mesa.pdf` | PDF | text | sí | ingerir |
-| `Aliments/Bolets/Jose Ramon Ruiz La mejor receta para cada seta.pdf` | PDF | text | sí | ingerir |
-| `Aliments/Bolets/Llorenç Petràs Cocinar con setas.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Bolets/V Jornadas gastronómicas de setas y hongos.pdf` | PDF | text | sí | ingerir |
-| `Aliments/Bolets/VI Jornadas gastronómicas setas y hongos.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Bolets/VII jornadas gastronómicas de setas & hongos.pdf` | PDF | text | sí | ingerir |
-| `Aliments/Bolets/desktop.ini` | INI | no aplicable | no | descartar |
-| `Aliments/Borrajas.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/COCINA EN UN FISH FAST.pdf` | PDF | text | sí | ingerir |
-| `Aliments/Caprabo Frutas.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Carmelo Perez Pequeña guia de setas comestibles.pdf` | PDF | text | sí | ingerir |
-| `Aliments/Casquería.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Cocina con gusto Pollo & Aves.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Cocina popular Pescados y mariscos espectaculares.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Como cocinar fruta.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Con Miel.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/DEL MAR, EL CALAMAR.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/De segundo, carne.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/De segundo, pescado.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Denise Jarrett Chocolates.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/ESPECIAL CALABACÍN.pdf` | PDF | text | sí | ingerir |
-| `Aliments/ESPECIAL CALABAZA.pdf` | PDF | text | sí | ingerir |
-| `Aliments/El gran libro del huevo.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/El-Gran-Libro-de-las-Manzanas.pdf` | PDF | text | sí | ingerir |
-| `Aliments/Especial Ajos.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Especial Conejo.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Especial berenjena.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Especial calabacin vol II.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Especial pollo II.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Especial pollo.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Espárragos blancos y verdes.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Felipe Luzón La cocina del mejillon.pdf` | PDF | text | sí | ingerir |
-| `Aliments/Gallina blanca Recetario de patatas.pdf` | PDF | text | sí | ingerir |
-| `Aliments/Hortalizas Otoño-Invierno.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Ideas para degustar la aceituna.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Joan Antoni Miró Con un par de huevos.pdf` | PDF | text | sí | ingerir |
-| `Aliments/Kocinarte Recetas de carne.pdf` | PDF | text | sí | ingerir |
-| `Aliments/LIBRO+ARROCES+DE+ESPAÑA.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/La gran mariscada.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/La sandia recetas.pdf` | PDF | text | sí | ingerir |
-| `Aliments/Legumbres.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Los chiles de México.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Los mejores quesos.pdf` | PDF | text | sí | ingerir |
-| `Aliments/Maru Castilla Pollo gourmet.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Aliments/Montse Bradford Algas Las verduras del mar.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Montse Bradford Algas, las verduras del mar.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/OGGI BROCCOLI.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Pablo Battro Todo lo que siempre quiso saber sobre quesos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Aliments/Pollos al Horno Mediterráneo.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/RECETAS PRODUCTOS DEL MAR.pdf` | PDF | text | sí | ingerir |
-| `Aliments/Recetario a base de cereales y otros granos.mobi` | MOBI | no aplicable | no | descartar |
-| `Aliments/Salmón Cenas fáciles para el día a día.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Superfoods for Life, Cacao.epub` | EPUB | escanejat | no | descartar |
-| `Aliments/Todo patata.pdf` | PDF | text | sí | ingerir |
-| `Aliments/Todo queso.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/Todo verde.pdf` | PDF | escanejat | sí | descartar |
-| `Aliments/VI_jornadas_gastronómicas_del_iberico.pdf` | PDF | text | sí | ingerir |
-| `Aliments/recetario-merluza.pdf` | PDF | text | sí | ingerir |
-| `Aliments/recetas-chocolate (1).pdf` | PDF | text | sí | ingerir |
-| `Aliments/Ángel León Pescados azules.pdf` | PDF | escanejat | sí | descartar |
-| `Cocció de marisc i crustacis.doc` | DOC | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/100% CRÊPES.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/100% FRESA.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/100% LASAÑA.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/100% PAPILLOTE.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/100% tomate.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/20 recetas navideñas Platos vegetarianos.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/20 recetas navideñas para preparar postres helados.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/30 recetas en 30 minutos Ensaladas.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/30 recetas en 30 minutos Pastas y arroces.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/@malu320   Cocina Facil 2019-04-01.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Ada Parellada La cocina sostenible.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Anna Helm Ensaladas en frasco.epub` | EPUB | escanejat | no | descartar |
-| `Col·leccions/Anne Wilson Aperitivos y entrantes.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Anne Wilson Cocina asiática vegetariana.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Anne Wilson Cocina vegetariana rápida.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Anne Wilson Cocinar con wok.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Anne Wilson Guisos y cazuelas.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Anne Wilson Las mejores recetas de Asia.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Anne Wilson Pizzas y gratinados.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Anne Wilson Recetas de patatas populares.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Anne Wilson Sopas.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Biblioteca Lecturas 30 recetas en 30 minutos Mousses.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Biblioteca lecturas 30 recetas en 30 minutos Pollo.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Biblioteca_Lecturas_30_recetas_en (2).pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Biblioteca_Lecturas_30_recetas_en (3).pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Biblioteca_Lecturas_30_recetas_en (4).pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Biblioteca_Lecturas_30_recetas_en.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Bimbo Recetas de Cuaresma.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Buen Provecho num. 143 Enero 2017.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Cocina Semana num. 22 Junio-Julio 2016.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Cocina Semana num. 59 Diciembre 2014.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Cocina Semana num. 61 Febrero 2015.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Cocina Semana num. 62 Marzo 2015.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Cocina Semana num. 63 Abril 2015.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Cocina Semana num. 65 Junio 2015.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Cocina Semana num. 66 Julio 2015.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Cocina Semana num. 69 Octubre 2015.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Cocina Semana num. 70 Noviembre 2015.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Cocina Semana num. 71 Diciembre 2015.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Cocina Semana num. 79 Agosto 2016.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Cocina Semana num. 80 Septiembre 2016.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Cocina fácil Comida tipica mexicana.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Cocina fácil Edición especial Bocadillos.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Cocina fácil Fabulosos postres.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Cocina fácil Todo al horno.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Cocina fácil lecturas num. 231.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Cocina ilustrada Cocina fácil y rápida.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Cocina semana num. 74 Marzo 2016.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Gallina Blanca Cocinar con microondas.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gallina Blanca Del mar a la mesa.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gallina Blanca Las sopas.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gallina Blanca Platos fáciles y económicos.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gallina Blanca Recetario Platos ligeros.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gallina Blanca Recetario de ensaladas veraniegas.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gallina Blanca Recetario de las colaboradoras.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gallina Blanca Recetario de otoño.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gallina Blanca Recetario de pescado.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gallina Blanca Recetario de picnic.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gallina Blanca Recetario de potajes y guisos.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gallina Blanca Recetario de setas 2010.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gallina Blanca Recetario especial huevos.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gallina Blanca Recetario legumbres.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gallina Blanca Recetario pescado azul.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gallina Blanca Recetas para principiantes.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gallina blanca Recetario de patatas (2).pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gallina blanca Recetario de patatas.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gallina_Blanca_Aperitivos_para_deleitar.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gaston Acurio en tu Cocina 02 - Pescados.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Gaston Acurio en tu Cocina 03 - Maiz, arroz y otros cereales.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Gaston Acurio en tu Cocina 04 - Aves.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Gaston Acurio en tu Cocina 05 - Frejoles.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Gaston Acurio en tu Cocina 06 - Carnes rojas.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Gaston Acurio en tu Cocina 07 - Tallarines y otras pastas.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Gaston Acurio en tu Cocina 08 - Ajies, hierbas y vegetales.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gaston Acurio en tu Cocina 09 - Mariscos.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gaston Acurio en tu Cocina 10 - Sopas, chupes y caldos.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gaston Acurio en tu Cocina 11 - Cócteles peruanos.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gaston Acurio en tu Cocina 12 - Postres.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gaston Acurio en tu Cocina 13 - Guisos y estofados.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gaston Acurio en tu Cocina 14 - Piqueos.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gaston Acurio en tu Cocina 15 - Recetas especiales.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Gaston Acurio en tu cocina 01 - Papas.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Lekue Mindfuld Eating.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Lekue Nutrición y deporte.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Lekue Recetas de supervivencia para principiantes.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Lekue Recetas para el día a día.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Lekue Saca partido a tu microondas.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Mariano Orzola 120 recetas navideñas Carnes y aves.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 168 recetas americanas e italianas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 168 recetas americanas y españolas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 168 recetas americanas y francesas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 168 recetas americanas y mediterráneas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 168 recetas americanas y mexicanas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 168 recetas argentinas y francesas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 168 recetas argentinas y mediterráneas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 168 recetas argentinas y mexicanas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 168 recetas con aceitunas y con huevo.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 168 recetas de ocasión Entrantes y postres.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 168 recetas españolas y francesas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 168 recetas orientales e italianas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 168 recetas orientales y francesas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 168 recetas para preparar budines y mousse.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 168 recetas para preparar con aves y cordero.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 168 recetas para preparar escabeches y dip.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 168 recetas para preparar flanes y mousse.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 168 recetas para preparar galletas y panes.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 168 recetas para preparar omelettes y mousse.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 168 recetas para preparar tortas y café.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 20 recetas gourmet Pizzas premium.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 20 recetas gourmet Platos mediterráneos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 20 recetas gourmet Platos vegetarianos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 20 recetas gourmet Postres helados.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 20 recetas gourmet Postres livianos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 20 recetas navideñas Aperitivos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 20 recetas navideñas Entrantes y ensaladas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 20 recetas navideñas Exquisiteces saladas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 20 recetas navideñas Segundos platos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 20 recetas navideñas con mariscos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 20 recetas para preparar postres livianos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 25 recetas livianas y sin grasa.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 72 recetas para prepara con cerdo.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 72 recetas para preparar budines.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 72 recetas para preparar con arroz.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 72 recetas para preparar con aves.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 72 recetas para preparar con canela.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 72 recetas para preparar con huevo.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 72 recetas para preparar con marisco.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 72 recetas para preparar con pescados.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 72 recetas para preparar con pollo.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 72 recetas para preparar guarniciones.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 72 recetas para preparar guisados.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 72 recetas para preparar omelettes.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 72 recetas para preparar platos fríos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 72 recetas para preparar platos suculentos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 72 recetas para preparar postres helados.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 72 recetas para preparar sopas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 72 recetas para preparar tortas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 72 recetas para sorprender.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 72 recetas saludables para cuidar tu silueta.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas con aceitunas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas con arroz.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas con carne.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas con cereales.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas con frutos secos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas con huevo.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas con pescado.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas con semillas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas de la cocina española.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas de la cocina francesa.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas de la cocina italiana.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas de la cocina mexicana.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas para preparar bebidas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas para preparar budines.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas para preparar café y chocolate.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas para preparar comida rápida.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas para preparar comidas al wok.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas para preparar dip.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas para preparar ensaladas gourmets.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas para preparar galletas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas para preparar pasteles salados.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas para preparar pizzas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas para preparar platos fríos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas para preparar postres.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas para preparar tapas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola 84 recetas para preparar tartas dulces.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola Selección de 84 recetas con chocolate.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola Selección de 84 recetas con fibra.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola Selección de 84 recetas con legumbres.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola Selección de 84 recetas de comida express.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola Selección de 84 recetas de invierno.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola Selección de 84 recetas de postres del mundo.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Mariano Orzola Selección de 84 recetas frescas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzola Selección de 84 recetas para guarniciones.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano Orzolas 20 recetas gourmets Pasteles hojaldres.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano_Orzola_100_recetas_navideñas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano_Orzola_168_recetas_de_ocasión (2).epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano_Orzola_168_recetas_de_ocasión.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano_Orzola_168_recetas_para (2).epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano_Orzola_168_recetas_para (3).epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano_Orzola_168_recetas_para (4).epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano_Orzola_168_recetas_para.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano_Orzola_20_recetas_navideñas (2).epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano_Orzola_20_recetas_navideñas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano_Orzola_35_recetas_navideñas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano_Orzola_60_recetas_navideñas (2).epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano_Orzola_60_recetas_navideñas (3).epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano_Orzola_60_recetas_navideñas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano_Orzola_72_recetas_para_preparar.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano_Orzola_84_recetas_para_preparar (2).epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano_Orzola_84_recetas_para_preparar.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Mariano_Orzola_Selección_de_84_recetas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Col·leccions/Pescanova Anguriñas.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Pescanova La cocina del pescado.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Pescanova Langostinos.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Pescanova Merluza Pescanova en microondas.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Pescanova Merluza en microondas.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Pescanova Recetario con Omega 3.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Pescanova Recetario de Semana Santa.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Pescanova Recetario de bacalao.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Pescanova Recetario de cuaresma 2012.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Pescanova Recetario de merluza.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Pescanova Recetario de navidad 2009.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Pescanova Recetario de navidad 2011.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Pescanova Recetario de navidad 2012.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Pescanova Recetario de pescado rebozado y empanado.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Pescanova Recetario de rabas y chopirones.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Pescanova Recetario de salmón ahumado.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Pescanova Recetas de Tallarimis.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Pescanova Recetas de anguriñas y surimi.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/Pescanova Recetas de surimi para sorprender.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/Pescanova Recetas ligeras.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/cocina fácil lecturas num. 124.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 127.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 133.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 135.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 150.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 153.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 154.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 156.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 182.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 203.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 204.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 209.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/cocina fácil lecturas num. 210.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 215.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 217.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 218.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 220.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 221.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 222.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 223.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 224.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 225.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 226.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 229.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 232.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 234.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 235.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 236.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 237.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 238.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 239.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 240.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 242.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 243.pdf` | PDF | escanejat | sí | descartar |
-| `Col·leccions/cocina fácil lecturas num. 244.pdf` | PDF | text | sí | ingerir |
-| `Col·leccions/cocina fácil lecturas num. 89.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/2019-09-01 Louisiana Cookin.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/40 Menus sencillamente deliciosos.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/@malu320 Gastronomia-Peruana.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/A cociña galega.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Alimentos Del Norte.mobi` | MOBI | no aplicable | no | descartar |
-| `Cuina del mon/Andalucia destapa Andalucia.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Cuina del mon/Aurora Sonia Montesino Cocinas mestizas de Chile.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Bartolo Mutari Cocina siciliana.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Biblioteca Metropoli Nuestra cocina País vasco.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/COCINA ASIÁTICA.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/COCINA ESPAÑOLA. VOL I.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/COCINA ESPAÑOLA. VOL II.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/COMIDA SALUDABLE ESTILO JAPONES.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Camargo Rain La cocina española de siempre.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Cuina del mon/Carl Jan Clásicos de la cocina sueca.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Carmen Gil Por la cocina española.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Chef Oropeza Comida atipica mexicana.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Classiche italiane salse per accompagnare.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Club de guisanderas El libro de las guisanderas de Asturias.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Cocina America del Sur (2).pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Cocina America del Sur.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Cocina Francesa.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Cocina Gallega.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Cocina Italiana.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Cocina Vasca Jorge Beramendi - Desconocido.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Cocina china I paso a paso.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Cocina cubana 5 siglos de tradición.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Cocina italiana.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Cuina del mon/Cocina japonesa paso a paso.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Cocina mediterránea paso a paso.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Cocina mexicana paso a paso.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Cocina tradicional de la sierra de Cádiz.epub` | EPUB | escanejat | no | descartar |
-| `Cuina del mon/Cocina árabe I paso a paso.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Comida china.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Círculo de Lectores El gran libro de la cocina ecuatoriana.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/De rechupete Empanadas gallegas.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Editorial Blume Cocina tailandesa.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Cuina del mon/Editorial Espasa El gran libro de la cocina gallega.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Editorial konemann Cocina japonesa y coreana.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Editorial_Cocinamos_La_cocina_española.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/El gran libro del wok.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Emi Kazuko Comida japonesa.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Empanadas Gallegas.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Encarnación_Lenza_Recetas_tradicionales.mobi` | MOBI | no aplicable | no | descartar |
-| `Cuina del mon/Escapada a La India.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Fernando Ordoñez La gran cocina peruana.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Festín Griego (2).pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Festín Griego.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Fuga in India.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Gabriele Napolitano Entradas italianas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Cuina del mon/Gastronomía aragonesa.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Gobierno de Aragón Hoy comemos sin gluten.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Graciela Bajraj Las 105 recetas más famosas del mundo.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Cuina del mon/Gran menú americano.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Hawwaiian Pool Party.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Instituto Culinario de México Cocina árabe.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Japón es más que sushi.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Jaume Fàbrega La cocina de Menorca.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Joanna Farrow Cocina griega.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Jornadas gastronómicas de Castilla y León.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/José Aguilera La cocina de Almería.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/LIBRO+ARROCES+DE+ESPAÑA.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/La Verdadera Cocina Criolla.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/La cocina japonesa de Harumi.PDF` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/La cocina tradicional en Chiclana.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Las cocineras de Sils.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Las recetas de Isabella Cocina austro-hungara.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Cuina del mon/Libro de cocina tradicional del sur de Italia.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Cuina del mon/Lo mejor de la comida árabe.epub` | EPUB | escanejat | no | descartar |
-| `Cuina del mon/MARRUECOS.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Maria Adela Díaz Cocina murciana.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Maria José Martin Comida tradicional española.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Miriam Becker Pasión por la cocina judia.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Málaga Recetas populares.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/México está de fiesta.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Nora Pérez Salsas taqueras mexicanas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Cuina del mon/Nuestro libro de cocina vasca.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Osno Monto Empanada criolla y picadillo llanero.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Cuina del mon/Otilia Kusmin Delicias de la cocina rusa.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Pablo Castro La Cocina de la Serranía de Ronda.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Pablo Castro La cocina del entorno de los embalses.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Panaderia Mexicana 01.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Panaderia Mexicana 02.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Panaderia Mexicana 03.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Panaderia Mexicana 04.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Panaderia Mexicana 05.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Panaderia Mexicana 06.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Panaderia Mexicana 07.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Panaderia Mexicana 08.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Panaderia Mexicana 09.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Panaderia Mexicana 10.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Panaderia Mexicana 11.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Panaderia Mexicana 12.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Panaderia Mexicana 13.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Panaderia Mexicana 14.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Panaderia Mexicana 15.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Panaderia Mexicana 16.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Panaderia Mexicana 17.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Panaderia Mexicana 18.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Panaderia Mexicana 20.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Panadería Mexicana 19.PDF` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Plan andaluz de salud Cocina andaluza Dieta mediterránea.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/RECETAS TIPICAS GRIEGAS.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/REVISTASGOLD35K.Maxi  Marzo 2019.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Recetario cocina japonesa.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Recetario de Cocina Asiatica.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Recetario de Cocina Gallega.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Recetario tradicional aragonés del siglo XXI (2).pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Recetario tradicional aragonés del siglo XXI.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Recetas Cocina Arabé MArroqui.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Recetas de cocina arabe marroquí.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Recetas de cocina argentina.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Recetas mexicanas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Cuina del mon/Recetas mexicanas.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Recetas sabrosas Cocina china.epub` | EPUB | escanejat | no | descartar |
-| `Cuina del mon/SABORES DE ITALIA.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Saboreando Asturias.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Sabores de Chile para el mundo.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Sabores del mundo Cocina japonesa paso a paso.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/Salah Jamal Aroma arabe.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Cuina del mon/Supermaxi Italia al dente.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/TUTTO BACCALA BIMBY.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/TUTTO POLPETTONI BIMBY.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Taste_of_Persia_A_Cook’s_Travels_Through_Armenia,_Azerbaijan,_Georgia.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Todo sobre la cocina argentina server gardel.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Tutto bavarese.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Tutto frittata.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Tutto ravioli.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Tutto romagnolo.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/VIVA MÉXICO.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Vinaròs, la gastronomia.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Vincenzo y Rafaella Fabrocini La dieta mediterránea.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Viva México.doc` | DOC | escanejat | no | descartar |
-| `Cuina del mon/Yuka Kaneko Las mejores recetas de sushi.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/asia.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/comida de boteco.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/el-gran-libro-de-la-cocina-italiana.pdf` | PDF | escanejat | sí | descartar |
-| `Cuina del mon/recetario_empanadas_gallegas.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/recetariococina-multicultural.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/recetas-cocina-italiana-web.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/recetas-halloween.pdf` | PDF | text | sí | ingerir |
-| `Cuina del mon/Índia.pdf` | PDF | escanejat | sí | descartar |
-| `Cultura culinaria/Atlas ilustrado de plantas medicinales y curativas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Cultura culinaria/COCINA AL VAPOR.pdf` | PDF | text | sí | ingerir |
-| `Cultura culinaria/Carlos Abehsera Cocinar sin carbohidratos.epub` | EPUB | escanejat | no | descartar |
-| `Cultura culinaria/Cocina al instante Cocina bajo cero.pdf` | PDF | escanejat | sí | descartar |
-| `Cultura culinaria/Dr Álvaro Campillo Alimentación para deportistas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Cultura culinaria/Editorial Grijalbo Guia de la verdura.pdf` | PDF | escanejat | sí | descartar |
-| `Cultura culinaria/Editorial_Everest_El_gran_libro.pdf` | PDF | escanejat | sí | descartar |
-| `Cultura culinaria/El libro de la cocina natural.pdf` | PDF | escanejat | sí | descartar |
-| `Cultura culinaria/El_Sabor_en_Familia_Antología_de.pdf` | PDF | escanejat | sí | descartar |
-| `Cultura culinaria/Elisabeth Lambert Enciclopedia de las especias.pdf` | PDF | text | sí | ingerir |
-| `Cultura culinaria/Enciclopedia de las hierbas mágicas.pdf` | PDF | text | sí | ingerir |
-| `Cultura culinaria/Escuela_Superior_de_Hostereria_de.pdf` | PDF | text | sí | ingerir |
-| `Cultura culinaria/Frank Suarez El poder del metabolismo.pdf` | PDF | text | sí | ingerir |
-| `Cultura culinaria/François_Couplan_Reconoce_facilmente.epub` | EPUB | escanejat | no | descartar |
-| `Cultura culinaria/Gloria Spencer  La Cocina Enzimatica.pdf` | PDF | escanejat | sí | descartar |
-| `Cultura culinaria/Harinas Bufort Manual del panadero.pdf` | PDF | text | sí | ingerir |
-| `Cultura culinaria/Hermann Schmidt  Las especias Condimentos vegetales.pdf` | PDF | text | sí | ingerir |
-| `Cultura culinaria/Hervé This Los secretos de los pucheros.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Cultura culinaria/Integral El libro de las especias.pdf` | PDF | escanejat | sí | descartar |
-| `Cultura culinaria/Jean Pedrazzani Los remedios de la abuela.pdf` | PDF | text | sí | ingerir |
-| `Cultura culinaria/Jean Seignalet La alimentación La 3ª medicina.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Cultura culinaria/Jennifer Eloff Vamos a comer bajo en carbohidratos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Cultura culinaria/Joaquin Pérez Cocinar con una pizca de ciencia.pdf` | PDF | text | sí | ingerir |
-| `Cultura culinaria/John_Seymour_La_conservacion_de.pdf` | PDF | escanejat | sí | descartar |
-| `Cultura culinaria/Jose Luis Armendariz Técnicas de cocina para profesionales.pdf` | PDF | text | sí | ingerir |
-| `Cultura culinaria/Jose Luis Armendáriz Técnicas de cocina para profesionales.pdf` | PDF | text | sí | ingerir |
-| `Cultura culinaria/La cocina aromatica - Francois Chartier.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Cultura culinaria/La cocina de la congelación.pdf` | PDF | escanejat | sí | descartar |
-| `Cultura culinaria/Laura Landra Como conservar fruta y verdura.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Cultura culinaria/Libro de recetas del aula de hosteleria curso 2008-2009.pdf` | PDF | text | sí | ingerir |
-| `Cultura culinaria/Low carb ¡Come sano!.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Cultura culinaria/Manual del aspirante a chef - MasterChef.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Cultura culinaria/Manual práctico sobre pescados y mariscos frescos.pdf` | PDF | escanejat | sí | descartar |
-| `Cultura culinaria/Manuel Arasa Gil Manual de nutrición deportiva.pdf` | PDF | text | sí | ingerir |
-| `Cultura culinaria/Maria Jesus Gil de Antuñano Escuela de cocina.pdf` | PDF | text | sí | ingerir |
-| `Cultura culinaria/Masterchef Manual del aspirante a chef.pdf` | PDF | escanejat | sí | descartar |
-| `Cultura culinaria/PARA DEPORTISTAS.pdf` | PDF | escanejat | sí | descartar |
-| `Cultura culinaria/REVISTASGOLD31K. 12-18-CocinaVital.pdf` | PDF | escanejat | sí | descartar |
-| `Cultura culinaria/Saturnino Calleja Manual de la cocinera.pdf` | PDF | text | sí | ingerir |
-| `Cultura culinaria/Sergio Casado Una aventura en el mundo de la cocina.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Gourmand_29_Janvier_2020 .pdf` | PDF | escanejat | sí | descartar |
-| `Guisats i estofats/Estofados.pdf` | PDF | escanejat | sí | descartar |
-| `Guisats i estofats/Guisos de patata.pdf` | PDF | escanejat | sí | descartar |
-| `Guisats i estofats/IX jornadas gastronómicas de la cazuela y los guisos.pdf` | PDF | text | sí | ingerir |
-| `Guisats i estofats/V Jornadas gastronómicas de la cazuela y los guisos.pdf` | PDF | text | sí | ingerir |
-| `Guisats i estofats/VI Jornadas gastronómicas de la cazuela y los guisos.pdf` | PDF | text | sí | ingerir |
-| `Guisats i estofats/VII jornadas gastronómicas de la cazuela y los guisos.pdf` | PDF | text | sí | ingerir |
-| `Guisats i estofats/VIII jornadas gastronómicas de la cazuela y los guisos.pdf` | PDF | text | sí | ingerir |
-| `Guisats i estofats/losguisosdelaabuela.pdf` | PDF | text | sí | ingerir |
-| `Postres/1 MOLDE 10 RECETAS.pdf` | PDF | text | sí | ingerir |
-| `Postres/100 Dulces Y Postres - Patry Jordan.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/12 Recetas de galletas.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/30 recetas prácticas Postres rápidos.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/555 Recetas de postres - Eva Arguinano.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Angela García Tartas del mundo.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Aprenda a hacer dulzuras caseras.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Arte del azucar 01.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Arte del azucar 02.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/BOLLERÍA CASERA .pdf` | PDF | text | sí | ingerir |
-| `Postres/Bea Roque El rincón de Bea Delicias para compartir.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Postres/Bimbo - Recetas de Cuaresma.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Bricoreposteria - VVAA.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Postres/Cecilia Paseiro Pastelería artesanal.pdf` | PDF | text | sí | ingerir |
-| `Postres/Cheesecakes.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Chef Express Postres livianos.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Chocolate Recetas que explotan sus sentidos.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Cioccolate.pdf` | PDF | text | sí | ingerir |
-| `Postres/Cocina fácil Dulces de Navidad.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Curso alta reposteria chocolates turin.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Dolcezze tirolesi.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Dolci ma non troppo.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Dolci sorprese Galette des rois.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Dolci sorprese.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Dulce Tentación (México).pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Dulces Navideños.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Edición chocolate.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Editorial El Pais Siete Pecados.pdf` | PDF | text | sí | ingerir |
-| `Postres/Editorial NGV Helados, sorbetes y otros.epub` | EPUB | escanejat | no | descartar |
-| `Postres/El libro de oro de la reposteria para ti.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/El rincón de los postres.pdf` | PDF | text | sí | ingerir |
-| `Postres/Emily Scott Los 10 postres más famosos del mundo.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Postres/Festín de Sri Lanka.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Flan y pudín.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Fruta natural.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/GRANDES TARTAS.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Gabriele Colditz Fruta escarchada.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Giuliana Bonomo Guía de dulces.pdf` | PDF | text | sí | ingerir |
-| `Postres/HELADOS Y SORBETES. VOL. I.pdf` | PDF | text | sí | ingerir |
-| `Postres/José Maréchal Sabrosas tentaciones en vasitos.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Juan Diaz La pequeña cuisiniere.epub` | EPUB | escanejat | no | descartar |
-| `Postres/La cocina de Sumito Postres para impresionar.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/La magia del chocolate.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Las 100 mejores recetas dulces de Ana Sevilla.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Las mejores gelatinas presenta flanes.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Les meilleurs de mini cakes.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Lo mejor de la leche dulce num. 33.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Lolita Avellana Les postres de casa meva.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Postres/MAGDALENAS.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Masterclass Tartas increibles.pdf` | PDF | text | sí | ingerir |
-| `Postres/Maxine Clark Tartas dulces y saladas.epub` | EPUB | escanejat | no | descartar |
-| `Postres/Montagud Editores Pastry Revolution.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Muffin dolci e salati.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Muffins Dulces y salados.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/NGV Super muffins.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Nestlé ¡A comer bien! Recetas para postres.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/POSTRES INDIVIDUALES.pdf` | PDF | text | sí | ingerir |
-| `Postres/Panadería y pastelería profesional.pdf` | PDF | text | sí | ingerir |
-| `Postres/Panquecitos.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Panqués.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Pasteleria y reposteria Curso avanzado.epub` | EPUB | escanejat | no | descartar |
-| `Postres/Pastelería artesana num. 03.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Postres/Postres de Navidad-1.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Postres del Mediterráneo.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Postres del mundo.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Postres en vaso - VVAA.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Postres/Postres para celebrar.pdf` | PDF | text | sí | ingerir |
-| `Postres/Postres y Dulces Galletas.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Postres y dulces Flanes.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Pralinky.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/REPOSTERÍA Y PASTELERÍA I.pdf` | PDF | text | sí | ingerir |
-| `Postres/Receitas-Pequenas-Delicias.pdf` | PDF | text | sí | ingerir |
-| `Postres/Receta-Roscon-Reyes-LeCreuset.pdf` | PDF | text | sí | ingerir |
-| `Postres/Recetario El Horno de Villablanca'.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Recetas de cremas, mousses y helados.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Recetas inedittas do convento para a bimby.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/SABOR A CHOCOLATE.pdf` | PDF | text | sí | ingerir |
-| `Postres/Saints Román Postres y otras recetas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Postres/Xavier Barriga Cocas, tortas y otras delicias.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/YOGURES.pdf` | PDF | text | sí | ingerir |
-| `Postres/galletas caseras.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/recetas-chocolate (1).pdf` | PDF | text | sí | ingerir |
-| `Postres/Ángela García & Hanns Geel - Tartas del mundo.pdf` | PDF | escanejat | sí | descartar |
-| `Postres/Éclair per una merenda chic.pdf` | PDF | escanejat | sí | descartar |
-| `REVISTASGOLD26K,1112-18-dcamera-byneon.pdf` | PDF | escanejat | sí | descartar |
-| `Receptes/100 recetas premiadas Tulipan.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Receptes/Cocina con garrote - Martin Berasategui.kepub.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Receptes/Grandes Recetas Para Cocinas Pequeñas - Marta Carnicero.pdf` | PDF | text | sí | ingerir |
-| `Receptes/Karlos Arguiñano Cocina día a día.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Receptes/Libro de recetas Sencillo & saludable.mobi` | MOBI | no aplicable | no | descartar |
-| `Receptes/Maravillosas-Recetas-de-La-Abuela-pdf.pdf` | PDF | text | sí | ingerir |
-| `Receptes/MasterChef - Las Recetas De Marta.pdf` | PDF | text | sí | ingerir |
-| `Receptes/Recetario blog Exquisit 2014.pdf` | PDF | text | sí | ingerir |
-| `Receptes/Recetario blog Exquisit Recetas de sopas y cremas.pdf` | PDF | escanejat | sí | descartar |
-| `Receptes/Recetario blog exquisit 2015.pdf` | PDF | text | sí | ingerir |
-| `Receptes/Recetario blog exquisit 2016.pdf` | PDF | text | sí | ingerir |
-| `Receptes/Recetario blog exquisit 2017.pdf` | PDF | text | sí | ingerir |
-| `Receptes/Recetario blog exquisit 40 exquisitos bocadillos.pdf` | PDF | text | sí | ingerir |
-| `Receptes/Recetario_blog_Exquisit_Recetas.pdf` | PDF | escanejat | sí | descartar |
-| `Receptes/Velocidad cuchara  Lo mejor del blog.pdf` | PDF | escanejat | sí | descartar |
-| `Receptes/cocina fácil lecturas.rar` | RAR | no aplicable | no | descartar |
-| `Receptes/recetas con humor.pdf` | PDF | text | sí | ingerir |
-| `Thermomix/01_Thermomix_-_Mis_Mejores_Recetas_-_Cristina_Galiano.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/10.- A todo vapor TMX31.Johnnygan.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/24.- Las Recetas De La Abuela II.Johnnygan.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/4.- 100 Recetas practicas.Johnnygan.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/43.- Imprescindible para su cocina.Johnnygan.pdf` | PDF | text | sí | ingerir |
-| `Thermomix/5.- 100 nuevas recetas.Johnnygan.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/Al calor de un caldo.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/BAOS.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/BARBACOA ESPECIAL Y DIFERENTE.pdf` | PDF | text | sí | ingerir |
-| `Thermomix/BARRETTE DALLA COMMUNITY.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/Como en casa.pdf` | PDF | text | sí | ingerir |
-| `Thermomix/DIETA MEDITERRANEA CON THERMOMIX.pdf` | PDF | text | sí | ingerir |
-| `Thermomix/De cuchara.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/DeliciosoYRapido.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/EXPERIENCIA GASTRONÓMICA Thermomix TM5.pdf` | PDF | text | sí | ingerir |
-| `Thermomix/Food Truck una fiesta de sabores.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/Gran Bretaña.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/Il cibo degli atleti.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/Kale.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/Kinder.pdf` | PDF | text | sí | ingerir |
-| `Thermomix/Maravillosas-Recetas-de-La-Abuela-pdf.pdf` | PDF | text | sí | ingerir |
-| `Thermomix/Pastillas de caldo.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/Picoteo de Cine.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/RECETAS DE DIARIO.pdf` | PDF | text | sí | ingerir |
-| `Thermomix/Recetas del  mundo para cocinar a diario.pdf` | PDF | text | sí | ingerir |
-| `Thermomix/SMOOTHIE BOWLS THERMOMIX .pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/Simple & Dulce con thermomix.pdf` | PDF | text | sí | ingerir |
-| `Thermomix/Thermomix 135 - Enero 2020.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/Thermomix 40 AÑOS.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/Thermomix Marzo 2017.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/Thermomix marzo 2020.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/Thermomix num. 123 Enero 2019.pdf` | PDF | text | sí | ingerir |
-| `Thermomix/Thermomix num. 126  Abril 2019.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/Thermomix num. 127 Mayo 2019.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/Thermomix num. 128 Junio 2019.pdf` | PDF | text | sí | ingerir |
-| `Thermomix/Thermomix num. 129 Julio 2019.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/Thermomix num. 130 Agosto 2019.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/Thermomix num. 131 Septiembre 2019.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/Thermomix num. 132 Octubre 2019.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/Thermomix num. 133 Noviembre 2019.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/Thermomix num. 134 Diciembre 2019.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/Thermomix num. 135 Enero 2020.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/Thermomix num. 138 Abril 2020.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/Thermomix septiembre 2018.pdf` | PDF | text | sí | ingerir |
-| `Thermomix/VOLANDO VOY alitas de pollo.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/adelgazar con thermomix.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/recetas_especiales.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/reposteria tmx.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/{RDL} 08-19-Thermomix.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/{RL} 05-20-Thermomix.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/{RL} 09-19-Thermomix.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/{RL} 10-19-Thermomix.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/{RL} 11-19-Thermomix.pdf` | PDF | escanejat | sí | descartar |
-| `Thermomix/{RL} Thermomix Un nuevo amanecer.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Amanides/Club gente saludable Ensaladas.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Amanides/De rechupete Recetas de ensalada.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Amanides/Ensaladas Para Todo El Año - Martín Berasategui.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Amanides/Ensaladas XXL.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Amanides/Ensaladas para todo el año - Martin Berasategui.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Amanides/Ensaladas y aliños.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Amanides/Pon una ensalada en tu verano 2016.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Amanides/Por una ensalada en tu verano 2013.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Amanides/Supermaxi Ensaladas para toda ocasión.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Amanides/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/Amanides/recetario_ensaladas.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Amb nens/Divertirsi in cucina.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Amb nens/Junior Masterchef Recetas para cocinar con niños.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Amb nens/Niños _a comer!.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Amb nens/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/Arros/Angelica Sasaki Cocina en 30 minutos Arroces.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Arros/Arroces Valencianos.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Arros/Arroz un básico 5 recetas.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Arros/Cocinar arroces con fantasia.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Arros/Especial arroces Vol II.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Arros/Especial arroces.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Arros/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/Autor/Chiringuito de Pepe Las recetas de Pepe Leal y Sergi Roca.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Autor/Cocina_con_Joan_Roca_a_baja_tem.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Autor/Grandes chefs.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Autor/Joan Roca Cocina con Joan Roca a baja temperatura.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Autor/Juan Mari Arzak Arzak.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Autor/Karlos Arguiñano 1000 recetas de oro.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Autor/Las 1150 recetas - Martín Berasategui.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Autor/Martín Berasategui Cocina en casa con Martín Berasategui.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Autor/Martín Berasategui La cocina de Martín Berasategui.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Autor/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/Cacera/VII jornadas gastronómicas de la caza.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Cacera/VIII jornadas gastronómicas de la caza.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Cacera/X Jornadas gastronómicas de la caza.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Cacera/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/Casolana/9ª Jornadas Gastronómicas de la caza.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Casolana/Asados con guarnición.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Casolana/Carnes rojas y blancas.epub` | EPUB | escanejat | no | descartar |
-| `Tipus de Cuina/Casolana/Cocina Exótica del Mediterráneo.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Casolana/Con carne de ave.epub` | EPUB | escanejat | no | descartar |
-| `Tipus de Cuina/Casolana/Con huevo o masa.epub` | EPUB | escanejat | no | descartar |
-| `Tipus de Cuina/Casolana/De verduras y hortalizas.epub` | EPUB | escanejat | no | descartar |
-| `Tipus de Cuina/Casolana/Empanadas y empanadillas.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Casolana/Especial Albóndigas.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Casolana/Fritos & Cía.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Casolana/I Jornada gastronómicas del ajo.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Casolana/Joan Roca Cuina mare.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Casolana/Juan José Yagüe Cocina marinera.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Casolana/La magia del vapore.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Casolana/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/Casolana/¡COMO EN CASA!.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Celíac/COCINA SIN GLUTEN VOL. II.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Celíac/Cocina Fácil para Celíacos con TMX.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Celíac/Cocina sin gluten.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Celíac/De rechupete Recetas para celiacos.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Celíac/Fabio Dana La vida sin gluten.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Celíac/Gobierno de Aragón Hoy comemos sin gluten (2).pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Celíac/REVISTASGOLD29K.2018-11-01 Gluten-Free Heaven.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Celíac/Restauración Sin Glúten.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Celíac/SIN GLUTEN. SIN LIMITES.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Celíac/Yo, celiaco - Fabio Dana.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Celíac/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/Celíac/recetario_celiacos.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Cervesa i begudes/Cócteles clásicos.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Cervesa i begudes/DE COPAS.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Cervesa i begudes/I jornadas gastronómicas de la cerveza.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Cervesa i begudes/I jornadas gastronómicas del vino Montilla-Moriles.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Cervesa i begudes/II jornadas gastronómicas de la cerveza.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Cervesa i begudes/III jornadas gastronómicas de la cerveza.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Cervesa i begudes/IV jornadas gastronómicas de la cerveza.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Cervesa i begudes/La guia del barman.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Cervesa i begudes/V jornadas gastronómicas de la cerveza.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Cervesa i begudes/Xavier Garcia La cerveza en España.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Cervesa i begudes/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/Cocina de aprovechamiento .epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Compotas & Conservas.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Conserves/COCINA CON CONSERVAS.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Conserves/Conservas de fruta y verdura.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Conserves/Cursos prácticos Conservas saladas y dulces.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Conserves/José Maillet El confitero moderno.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Conserves/La botica de la abuela Tisanas y jarabes deliciosos.epub` | EPUB | escanejat | no | descartar |
-| `Tipus de Cuina/Conserves/Mermeladas y compotas.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Conserves/Oded Schwartz Conservas.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Conserves/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/DESAYUNOS.PARA SOÑAR.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/El Gran Libro De La Cocina Rapida - Paola Sala.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/El_Pan_Manual_De_Técnicas_Y_Recetas_De_Panadería_Jeffrey_Hamelman.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Entrepans/Carlos Crespo Un buen bocadillo.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Entrepans/Cocina al instante Bocatas a la carta.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Entrepans/Cocina para llevar Bocadillos.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Entrepans/Un buen bocadillo - Carlos Crespo.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Entrepans/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/Eva y Ulrich Klever El gran libro de las fondues.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Festa/@malu320    04-19-Gourmet.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Festa/Aperitivos y canapes.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Festa/Carnevale salato.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Festa/Carolina Ferrer Menú de fiestas.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Festa/Como cocinar aperitivos y entrantes.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Festa/Darwin Solorzano Cocina para sorprender.epub` | EPUB | escanejat | no | descartar |
-| `Tipus de Cuina/Festa/La marquesa de Parabere Entremeses, aperitivos y ensaladas.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Festa/Maria Jesus Gil de Antuñano Cocina para invitados.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Festa/NGV Bocados para fiestas.epub` | EPUB | escanejat | no | descartar |
-| `Tipus de Cuina/Festa/RECIBIR CON ARTE.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Festa/Recetas para un día especial.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Festa/SORPRENDE A  TUS INVITADOS.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Festa/Taller comida de fiesta Verano 2019.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Festa/UN TOQUE GOURMET.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Festa/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/Food.Heaven.Presents.Bread.2020.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Fàcil/21 recetas de primavera (cocina para emancipados).pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Fàcil/50 recetas de verano - cocina para emancipados.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Fàcil/Angelita Alfaro Cocina para estudiantes.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Fàcil/Cheap & cheerful.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Fàcil/Cocina_Exotica_Al_Alcance_De_Todos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Fàcil/FÁCIL Y RÁPIDO VOL. II.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Fàcil/FÁCIL Y RÁPIDO. VOL. I.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Fàcil/Gallina Blanca Cocina para papá.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Fàcil/INSPIRACIÓN para el día a día.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Fàcil/Ligeras para dos.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Fàcil/Liz Franklin Platos exprés.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Fàcil/Marcos H. S. Nosotros cocinamos recien casados.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Fàcil/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/Hamburguesa i fast food/BURGUERS THERMOMIX .pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Hamburguesa i fast food/Brochetas fáciles y rápidas.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Hamburguesa i fast food/Burguers irresistibles.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Hamburguesa i fast food/Burguers saludables.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Hamburguesa i fast food/FAST FOOD PARA SIBARITAS.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Hamburguesa i fast food/Fast Food Saludable.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Hamburguesa i fast food/Food Truck una fiesta de sabores.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Hamburguesa i fast food/Food Truck.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Hamburguesa i fast food/Hamburguesas Las mejores recetas.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Hamburguesa i fast food/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/Ibèric/III_jornadas_gastronómicas_del_iberico.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Ibèric/II_Jornadas_Gastronómicas_del_iberico.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Ibèric/IV_jornadas_gastronómicas_del_iberico.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Ibèric/V_jornadas_gastronómicas_del_iberico.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Ibèric/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/Julia Osuna Cocina canalla.epub` | EPUB | escanejat | no | descartar |
-| `Tipus de Cuina/LIGERAS.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Las_mejores_recetas_con_marihuana.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/M. Palla Entrantes y entremeses.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/MENÚS COMPLETOS.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/María Victoria Llamas El libro del microondas.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Masas Editable.docx` | DOCX | text | sí | ingerir |
-| `Tipus de Cuina/Masas Editable.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/MasterChef Cocina de aprovechamiento.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Mattis Lundqvist 50 recetas de alta proteína.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Mattis Lundqvist 50 recetas de cocción lenta con carne.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Mattis Lundqvist 50 recetas de enchiladas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Nadal/Blanca Navidad.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Nadal/Buffet Navideño.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Nadal/Cocina para emancipados Recetas de Navidad 2016.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Nadal/Enric Monzonis Recetas de Navidad 2017.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Nadal/Feliz Navidad.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Nadal/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/Oggi... frutta.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Pa/22.- Pan Bolleria.Johnnygan.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Pa/Elaboració casolana de pa i pastes.epub` | EPUB | escanejat | no | descartar |
-| `Tipus de Cuina/Pa/Elaboración Artesanal del Pan.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Pa/Maria Lunarillos Panes.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Pa/Panes creativos.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Pa/Rolando Alvarado Manual de formulas y saberes de panadería.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Pa/Rosa Tovar Masas.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Pa/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/Pa/el libro del pan 1.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Pa/Área Gastronomía Manual de panadería.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Paco Blanco Crockpot.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Para untar.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Pasta/Ema García Recetas de pasta y fideos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Pasta/Ema García Recetas de plato principal de pasta.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Pasta/Masas saladas.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Pasta/Monica Ponttiroli Pastas caseras.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Pasta/Nicol Pardo Pizzas y pastas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Pasta/TODO PASTA.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Pasta/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/Pasta/🇮🇹. Pizza e Pasta Italiana. January 2020.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Per Endur/20 Recetas express para un mes de tupper.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Per Endur/Cocina para llevar al trabajo.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Per Endur/De rechupete Recetas de táper para el curro.mobi` | MOBI | no aplicable | no | descartar |
-| `Tipus de Cuina/Per Endur/Gallina Blanca Cocina para llevar al trabajo.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Per Endur/Lunch Box.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Per Endur/PARA LLEVAR (2).pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Per Endur/Para llevar Comer fuera como en casa.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Per Endur/Para llevar de picnic.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Per Endur/Para llevar.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Per Endur/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/Per Endur/recetario_picnic.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Pescado y marisco.epub` | EPUB | escanejat | no | descartar |
-| `Tipus de Cuina/Pescado ¡ Buen provecho !.epub` | EPUB | escanejat | no | descartar |
-| `Tipus de Cuina/Pescados y mariscos.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Pizza/Maxine Clark Pizza, calzone & Focaccia.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Pizza/Nicol Pardo Pizzas y pastas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Pizza/Pizza e Pasta Italiana Febbraio 2020.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Pizza/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/Pizza/🇮🇹. Pizza e Pasta Italiana. January 2020.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/RECETARIO DE BATIDOS.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/RECETAS PRODUCTOS DEL MAR.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/RICO BATIDO. MADE IN USA.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Raw Food.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Recetas de patés.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Recetas de pescados.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Recetas de zumos.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Recetas_Saludables_Julio_2017 (1).pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Roberto Peralta Los secretos de la cocina con microondas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/SIN LACTOSA.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Sabor a bosque.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Salses/Claudia_Viviana_Hernández_Salsas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Salses/El monstruo de las recetas 70 recetas de salsas fáciles.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Salses/Giorgio Stuart Las mejores salsas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Salses/José María Campos La elaboración de las salsas.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Salses/Modern_Sauces_More_than_150_Recipes_for_Every_Cook,_Every_Day_Martha.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Salses/Muchogusto.net Recetas caseras de salsas para pastas.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Salses/Practilibros Salsas y vinagretas.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Salses/Recetario Especial Sofritos.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Salses/Salsas, pan y queso.epub` | EPUB | escanejat | no | descartar |
-| `Tipus de Cuina/Salses/Salse.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Salses/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/Sano e leggero Piatti unici.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Sapori di montagna.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Secondi di carne.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Sopa/Al calor de un caldo.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Sopa/Aurora Abarca Las sopas de Aurora.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Sopa/CREMAS CALIENTES VOLUMEN II.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Sopa/CREMAS CALIENTES. VOL I.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Sopa/CREMAS Y SOPAS FRÍAS.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Sopa/Cocina Popular Sopas poderosas.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Sopa/Editorial Blume Selección culinaria Sopas.mobi` | MOBI | no aplicable | no | descartar |
-| `Tipus de Cuina/Sopa/SOPAS CON TROPEZÓN.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Sopa/Sopas (Selección culinaria).pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Sopa/Sopas Detox - Nicole Pisani y Kate Adams.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Sopa/Sopas Exquisitas.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Sopa/Sopas frías. Refrescate con cuchara.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Sopa/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/Sopa/doce-recetas-de-gazpacho-ajoblanco-y-sopas-frias (1).pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Supermaxi Los secretos de la carne.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Tapes/101 recetas de tapas.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Tapes/DE TAPEO. APERITIVOS Y TAPAS.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Tapes/De Tapas Con Quique Dacosta.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Tapes/Gallina_Blanca_Aperitivos_para_deleitar.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Tapes/Mundorecetas Recetas saladas de picoteo 1ª parte.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Tapes/Mundorecetas Recetas saladas de picoteo 2ª parte.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Tapes/Pedrito Rico Tapas Gourmet.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Tapes/Pedro Martín Donosti pintxo a pintxo.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Tapes/Recetario aperitivos y canapés.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Tapes/Recetario blog Exquisit Ideas para picar.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Tapes/Salvador Arimany Canapès a l'abast de tothom.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Tapes/Santiago(e)Tapas.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Tapes/Sylvie Ait-Ali 30 recetas de aperitivos para cenar.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Tapes/Tapas & Pinchos.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Tapes/Tapas con rock 'n' roll - Jordi Cruz.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Tipus de Cuina/Tapes/Tapas y Montaditos.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Tapes/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/Temporada/Chef Oropeza Sabores de verano.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Temporada/Cocina con aroma a Primavera.pdf` | PDF | text | sí | ingerir |
-| `Tipus de Cuina/Temporada/Primavera.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Temporada/Verano Recetas de temporada.pdf` | PDF | escanejat | sí | descartar |
-| `Tipus de Cuina/Temporada/desktop.ini` | INI | no aplicable | no | descartar |
-| `Tipus de Cuina/Temporada/temporada_octubre.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/500 Recetas Vegetarianas - Sandra figueroa y Consuelo Bedoya.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/@malu320    04-19-Cocina Vegana.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/@malu320   Cocina Vegetariana - abril 2019.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/@malu320 05-19-Cocina Vegetariana.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/@malu320 05-19-Extra Cocina Vegetariana.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/@malu320-Cocina Vegana - febrero 2019(1).pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/Ana Moreno Curso completo de cocina vegetariana.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/Antonio Castellanos Top 30 recetas veganas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Vegetariana/COCINA  VEGETARIANA.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/COCINA VEGETARIANA VOL II.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/COCINA VEGETARIANA.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/Cocina Vegetariana - abril 2020.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/Cocina Vegetariana 02-20.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/Cocina Vegetariana Platos principales.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/Cocina Vegetariana Recetas rápidas.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/Cocina Verde - Rodrigo de la Calle.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/Cocina fácil para vegetarianos y veganos.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/Cocina vegetariana (2).pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/Cocina vegetariana cookidoo.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/CreatiVegan Como hacer galletas veganas.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/CreatiVegan Menú de Navidad 2011.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/CreatiVegan Menú de Navidad 2012.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/CreatiVegan Minirecetario especial Biocultura.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/CreatiVegan Navidad 2016.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/CreatiVegan Recetario festivo 2013.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/CreatiVegan Recetario vegano nochevieja y año nuevo.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/CreatiVegan Recetas festivas 2014.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/Dr. Eduardo Alfonso Cocina vegetariana.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/Dulces navideños veganos.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/Gigi Ro Las mejores hamburguesas veganas y vegetarianas.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/Guia de iniciación de dieta vegetariana.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/Ignacio Domenech La cocina vegetariana moderna.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/Jack Norris Veganos para siempre.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/La cocina vegetariana de Marta.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/Michael Chung La biblia de smoothies verdes.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Vegetariana/Noemí Cervantes 50 recetas vegetarianas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Vegetariana/Pasqua vegetariana.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/Pequeña biblia de la cocina vegetariana.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/REVISTASGOLD22K-COCINAVEGETARIANA.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/REVISTASGOLD29K.12-18-cvegetariana-byneon.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/Recetario Granvita 2017.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/Recetario vegano.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/Recetario vegetariano internacional.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/Recetas vegetarianas fáciles Parte I.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/Recetas vegetarianas fáciles Parte II.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/Ricas recetas veganas con sabor latino.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Vegetariana/SOY VEGANO. VOL II.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/SOY VEGANO.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/Sally Reyes Dieta vegana.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Vegetariana/Sandra Figueroa de Castro Cocina vegetariana.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/Soy Vegano vol III.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/Stella Osterhoff Smoothies verdes.epub` | EPUB | escanejat | no | descartar |
-| `Vegetariana/Susaeta Cocina vegetariana.epub` | EPUB | escanejat | no | descartar |
-| `Vegetariana/Susaeta Recetas con verduras.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/Vegetarian N27 MarzoAprile 2020 .pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/Vida y cocina vegana nº 3.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/We Veg N62 Marzo 2020 .pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/Xabier Arguiñaz Cocina vegetariana.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) |
-| `Vegetariana/cocina vegetariana num 109.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 101.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 103.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 104.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/cocina vegetariana num. 105.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 106.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 108.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 22.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 42.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 43.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 44.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 45.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 46.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 47.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 48.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 49.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 50.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 51.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 52.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 53.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 55.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 57.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 60.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/cocina vegetariana num. 62.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/cocina vegetariana num. 63.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 94.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina vegetariana num. 95.pdf` | PDF | text | sí | ingerir |
-| `Vegetariana/cocina vegetariana num. 97.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/cocina_vegetariana_2018_07_01.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/extra cocina vegetariana num. 03.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/extra cocina vegetariana num. 19.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/extra cocina vegetariana num. 21.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/vida y cocina vegana nº 2.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/{RDL} 08-19-Cocina Vegetariana.pdf` | PDF | escanejat | sí | descartar |
-| `Vegetariana/{RL} 01-20-Cocina Vegetarinana.pdf` | PDF | escanejat | sí | descartar |
-| `temporada_octubre.pdf` | PDF | text | sí | ingerir |
+| Fitxer | Format | Text o escanejat | Format suportat? | Acció | Ingerit (sí/no) |
+| --- | --- | --- | --- | --- | --- |
+| `.gitkeep` | SENSE EXTENSI? | no aplicable | no | descartar | no |
+| `Aliments/AVE QUE VUELA....pdf` | PDF | text | sí | ingerir | sí |
+| `Aliments/Aguacate.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/BERBERECHOS.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Bacallà/Bacalao Recetas de Portugal.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Bacallà/Bacalhau para Todos.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Bacallà/Biblioteca Lecturas 30 recetas en 30 minutos Bacalao.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Bacallà/Toma bacalao.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Bacallà/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Aliments/Bolets/8ª Jornadas gastronómicas de las setas y hongos.pdf` | PDF | text | sí | ingerir | sí |
+| `Aliments/Bolets/Comer bien Setas y hongos.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Bolets/Jaume Prat Setas Del bosque a la mesa.pdf` | PDF | text | sí | ingerir | sí |
+| `Aliments/Bolets/Jose Ramon Ruiz La mejor receta para cada seta.pdf` | PDF | text | sí | ingerir | sí |
+| `Aliments/Bolets/Llorenç Petràs Cocinar con setas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Bolets/V Jornadas gastronómicas de setas y hongos.pdf` | PDF | text | sí | ingerir | sí |
+| `Aliments/Bolets/VI Jornadas gastronómicas setas y hongos.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Bolets/VII jornadas gastronómicas de setas & hongos.pdf` | PDF | text | sí | ingerir | sí |
+| `Aliments/Bolets/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Aliments/Borrajas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/COCINA EN UN FISH FAST.pdf` | PDF | text | sí | ingerir | sí |
+| `Aliments/Caprabo Frutas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Carmelo Perez Pequeña guia de setas comestibles.pdf` | PDF | text | sí | ingerir | sí |
+| `Aliments/Casquería.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Cocina con gusto Pollo & Aves.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Cocina popular Pescados y mariscos espectaculares.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Como cocinar fruta.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Con Miel.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/DEL MAR, EL CALAMAR.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/De segundo, carne.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/De segundo, pescado.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Denise Jarrett Chocolates.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/ESPECIAL CALABACÍN.pdf` | PDF | text | sí | ingerir | sí |
+| `Aliments/ESPECIAL CALABAZA.pdf` | PDF | text | sí | ingerir | sí |
+| `Aliments/El gran libro del huevo.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/El-Gran-Libro-de-las-Manzanas.pdf` | PDF | text | sí | ingerir | sí |
+| `Aliments/Especial Ajos.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Especial Conejo.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Especial berenjena.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Especial calabacin vol II.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Especial pollo II.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Especial pollo.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Espárragos blancos y verdes.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Felipe Luzón La cocina del mejillon.pdf` | PDF | text | sí | ingerir | sí |
+| `Aliments/Gallina blanca Recetario de patatas.pdf` | PDF | text | sí | ingerir | sí |
+| `Aliments/Hortalizas Otoño-Invierno.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Ideas para degustar la aceituna.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Joan Antoni Miró Con un par de huevos.pdf` | PDF | text | sí | ingerir | sí |
+| `Aliments/Kocinarte Recetas de carne.pdf` | PDF | text | sí | ingerir | sí |
+| `Aliments/LIBRO+ARROCES+DE+ESPAÑA.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/La gran mariscada.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/La sandia recetas.pdf` | PDF | text | sí | ingerir | sí |
+| `Aliments/Legumbres.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Los chiles de México.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Los mejores quesos.pdf` | PDF | text | sí | ingerir | sí |
+| `Aliments/Maru Castilla Pollo gourmet.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Aliments/Montse Bradford Algas Las verduras del mar.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Montse Bradford Algas, las verduras del mar.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/OGGI BROCCOLI.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Pablo Battro Todo lo que siempre quiso saber sobre quesos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Aliments/Pollos al Horno Mediterráneo.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/RECETAS PRODUCTOS DEL MAR.pdf` | PDF | text | sí | ingerir | sí |
+| `Aliments/Recetario a base de cereales y otros granos.mobi` | MOBI | no aplicable | no | descartar | no |
+| `Aliments/Salmón Cenas fáciles para el día a día.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Superfoods for Life, Cacao.epub` | EPUB | escanejat | no | descartar | no |
+| `Aliments/Todo patata.pdf` | PDF | text | sí | ingerir | sí |
+| `Aliments/Todo queso.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/Todo verde.pdf` | PDF | escanejat | sí | descartar | no |
+| `Aliments/VI_jornadas_gastronómicas_del_iberico.pdf` | PDF | text | sí | ingerir | sí |
+| `Aliments/recetario-merluza.pdf` | PDF | text | sí | ingerir | sí |
+| `Aliments/recetas-chocolate (1).pdf` | PDF | text | sí | ingerir | sí |
+| `Aliments/Ángel León Pescados azules.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cocció de marisc i crustacis.doc` | DOC | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/100% CRÊPES.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/100% FRESA.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/100% LASAÑA.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/100% PAPILLOTE.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/100% tomate.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/20 recetas navideñas Platos vegetarianos.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/20 recetas navideñas para preparar postres helados.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/30 recetas en 30 minutos Ensaladas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/30 recetas en 30 minutos Pastas y arroces.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/@malu320   Cocina Facil 2019-04-01.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Ada Parellada La cocina sostenible.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Anna Helm Ensaladas en frasco.epub` | EPUB | escanejat | no | descartar | no |
+| `Col·leccions/Anne Wilson Aperitivos y entrantes.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Anne Wilson Cocina asiática vegetariana.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Anne Wilson Cocina vegetariana rápida.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Anne Wilson Cocinar con wok.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Anne Wilson Guisos y cazuelas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Anne Wilson Las mejores recetas de Asia.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Anne Wilson Pizzas y gratinados.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Anne Wilson Recetas de patatas populares.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Anne Wilson Sopas.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Biblioteca Lecturas 30 recetas en 30 minutos Mousses.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Biblioteca lecturas 30 recetas en 30 minutos Pollo.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Biblioteca_Lecturas_30_recetas_en (2).pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Biblioteca_Lecturas_30_recetas_en (3).pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Biblioteca_Lecturas_30_recetas_en (4).pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Biblioteca_Lecturas_30_recetas_en.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Bimbo Recetas de Cuaresma.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Buen Provecho num. 143 Enero 2017.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Cocina Semana num. 22 Junio-Julio 2016.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Cocina Semana num. 59 Diciembre 2014.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Cocina Semana num. 61 Febrero 2015.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Cocina Semana num. 62 Marzo 2015.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Cocina Semana num. 63 Abril 2015.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Cocina Semana num. 65 Junio 2015.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Cocina Semana num. 66 Julio 2015.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Cocina Semana num. 69 Octubre 2015.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Cocina Semana num. 70 Noviembre 2015.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Cocina Semana num. 71 Diciembre 2015.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Cocina Semana num. 79 Agosto 2016.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Cocina Semana num. 80 Septiembre 2016.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Cocina fácil Comida tipica mexicana.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Cocina fácil Edición especial Bocadillos.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Cocina fácil Fabulosos postres.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Cocina fácil Todo al horno.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Cocina fácil lecturas num. 231.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Cocina ilustrada Cocina fácil y rápida.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Cocina semana num. 74 Marzo 2016.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Gallina Blanca Cocinar con microondas.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gallina Blanca Del mar a la mesa.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gallina Blanca Las sopas.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gallina Blanca Platos fáciles y económicos.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gallina Blanca Recetario Platos ligeros.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gallina Blanca Recetario de ensaladas veraniegas.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gallina Blanca Recetario de las colaboradoras.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gallina Blanca Recetario de otoño.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gallina Blanca Recetario de pescado.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gallina Blanca Recetario de picnic.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gallina Blanca Recetario de potajes y guisos.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gallina Blanca Recetario de setas 2010.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gallina Blanca Recetario especial huevos.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gallina Blanca Recetario legumbres.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gallina Blanca Recetario pescado azul.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gallina Blanca Recetas para principiantes.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gallina blanca Recetario de patatas (2).pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gallina blanca Recetario de patatas.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gallina_Blanca_Aperitivos_para_deleitar.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gaston Acurio en tu Cocina 02 - Pescados.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Gaston Acurio en tu Cocina 03 - Maiz, arroz y otros cereales.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Gaston Acurio en tu Cocina 04 - Aves.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Gaston Acurio en tu Cocina 05 - Frejoles.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Gaston Acurio en tu Cocina 06 - Carnes rojas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Gaston Acurio en tu Cocina 07 - Tallarines y otras pastas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Gaston Acurio en tu Cocina 08 - Ajies, hierbas y vegetales.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gaston Acurio en tu Cocina 09 - Mariscos.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gaston Acurio en tu Cocina 10 - Sopas, chupes y caldos.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gaston Acurio en tu Cocina 11 - Cócteles peruanos.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gaston Acurio en tu Cocina 12 - Postres.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gaston Acurio en tu Cocina 13 - Guisos y estofados.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gaston Acurio en tu Cocina 14 - Piqueos.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gaston Acurio en tu Cocina 15 - Recetas especiales.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Gaston Acurio en tu cocina 01 - Papas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Lekue Mindfuld Eating.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Lekue Nutrición y deporte.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Lekue Recetas de supervivencia para principiantes.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Lekue Recetas para el día a día.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Lekue Saca partido a tu microondas.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Mariano Orzola 120 recetas navideñas Carnes y aves.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 168 recetas americanas e italianas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 168 recetas americanas y españolas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 168 recetas americanas y francesas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 168 recetas americanas y mediterráneas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 168 recetas americanas y mexicanas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 168 recetas argentinas y francesas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 168 recetas argentinas y mediterráneas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 168 recetas argentinas y mexicanas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 168 recetas con aceitunas y con huevo.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 168 recetas de ocasión Entrantes y postres.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 168 recetas españolas y francesas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 168 recetas orientales e italianas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 168 recetas orientales y francesas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 168 recetas para preparar budines y mousse.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 168 recetas para preparar con aves y cordero.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 168 recetas para preparar escabeches y dip.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 168 recetas para preparar flanes y mousse.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 168 recetas para preparar galletas y panes.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 168 recetas para preparar omelettes y mousse.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 168 recetas para preparar tortas y café.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 20 recetas gourmet Pizzas premium.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 20 recetas gourmet Platos mediterráneos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 20 recetas gourmet Platos vegetarianos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 20 recetas gourmet Postres helados.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 20 recetas gourmet Postres livianos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 20 recetas navideñas Aperitivos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 20 recetas navideñas Entrantes y ensaladas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 20 recetas navideñas Exquisiteces saladas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 20 recetas navideñas Segundos platos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 20 recetas navideñas con mariscos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 20 recetas para preparar postres livianos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 25 recetas livianas y sin grasa.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 72 recetas para prepara con cerdo.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 72 recetas para preparar budines.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 72 recetas para preparar con arroz.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 72 recetas para preparar con aves.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 72 recetas para preparar con canela.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 72 recetas para preparar con huevo.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 72 recetas para preparar con marisco.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 72 recetas para preparar con pescados.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 72 recetas para preparar con pollo.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 72 recetas para preparar guarniciones.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 72 recetas para preparar guisados.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 72 recetas para preparar omelettes.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 72 recetas para preparar platos fríos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 72 recetas para preparar platos suculentos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 72 recetas para preparar postres helados.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 72 recetas para preparar sopas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 72 recetas para preparar tortas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 72 recetas para sorprender.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 72 recetas saludables para cuidar tu silueta.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas con aceitunas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas con arroz.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas con carne.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas con cereales.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas con frutos secos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas con huevo.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas con pescado.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas con semillas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas de la cocina española.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas de la cocina francesa.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas de la cocina italiana.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas de la cocina mexicana.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas para preparar bebidas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas para preparar budines.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas para preparar café y chocolate.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas para preparar comida rápida.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas para preparar comidas al wok.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas para preparar dip.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas para preparar ensaladas gourmets.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas para preparar galletas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas para preparar pasteles salados.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas para preparar pizzas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas para preparar platos fríos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas para preparar postres.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas para preparar tapas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola 84 recetas para preparar tartas dulces.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola Selección de 84 recetas con chocolate.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola Selección de 84 recetas con fibra.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola Selección de 84 recetas con legumbres.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola Selección de 84 recetas de comida express.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola Selección de 84 recetas de invierno.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola Selección de 84 recetas de postres del mundo.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Mariano Orzola Selección de 84 recetas frescas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzola Selección de 84 recetas para guarniciones.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano Orzolas 20 recetas gourmets Pasteles hojaldres.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano_Orzola_100_recetas_navideñas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano_Orzola_168_recetas_de_ocasión (2).epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano_Orzola_168_recetas_de_ocasión.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano_Orzola_168_recetas_para (2).epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano_Orzola_168_recetas_para (3).epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano_Orzola_168_recetas_para (4).epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano_Orzola_168_recetas_para.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano_Orzola_20_recetas_navideñas (2).epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano_Orzola_20_recetas_navideñas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano_Orzola_35_recetas_navideñas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano_Orzola_60_recetas_navideñas (2).epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano_Orzola_60_recetas_navideñas (3).epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano_Orzola_60_recetas_navideñas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano_Orzola_72_recetas_para_preparar.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano_Orzola_84_recetas_para_preparar (2).epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano_Orzola_84_recetas_para_preparar.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Mariano_Orzola_Selección_de_84_recetas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Col·leccions/Pescanova Anguriñas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Pescanova La cocina del pescado.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Pescanova Langostinos.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Pescanova Merluza Pescanova en microondas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Pescanova Merluza en microondas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Pescanova Recetario con Omega 3.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Pescanova Recetario de Semana Santa.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Pescanova Recetario de bacalao.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Pescanova Recetario de cuaresma 2012.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Pescanova Recetario de merluza.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Pescanova Recetario de navidad 2009.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Pescanova Recetario de navidad 2011.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Pescanova Recetario de navidad 2012.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Pescanova Recetario de pescado rebozado y empanado.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Pescanova Recetario de rabas y chopirones.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Pescanova Recetario de salmón ahumado.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Pescanova Recetas de Tallarimis.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Pescanova Recetas de anguriñas y surimi.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/Pescanova Recetas de surimi para sorprender.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/Pescanova Recetas ligeras.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/cocina fácil lecturas num. 124.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 127.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 133.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 135.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 150.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 153.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 154.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 156.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 182.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 203.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 204.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 209.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/cocina fácil lecturas num. 210.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 215.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 217.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 218.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 220.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 221.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 222.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 223.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 224.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 225.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 226.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 229.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 232.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 234.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 235.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 236.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 237.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 238.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 239.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 240.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 242.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 243.pdf` | PDF | escanejat | sí | descartar | no |
+| `Col·leccions/cocina fácil lecturas num. 244.pdf` | PDF | text | sí | ingerir | sí |
+| `Col·leccions/cocina fácil lecturas num. 89.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/2019-09-01 Louisiana Cookin.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/40 Menus sencillamente deliciosos.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/@malu320 Gastronomia-Peruana.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/A cociña galega.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Alimentos Del Norte.mobi` | MOBI | no aplicable | no | descartar | no |
+| `Cuina del mon/Andalucia destapa Andalucia.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Cuina del mon/Aurora Sonia Montesino Cocinas mestizas de Chile.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Bartolo Mutari Cocina siciliana.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Biblioteca Metropoli Nuestra cocina País vasco.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/COCINA ASIÁTICA.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/COCINA ESPAÑOLA. VOL I.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/COCINA ESPAÑOLA. VOL II.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/COMIDA SALUDABLE ESTILO JAPONES.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Camargo Rain La cocina española de siempre.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Cuina del mon/Carl Jan Clásicos de la cocina sueca.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Carmen Gil Por la cocina española.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Chef Oropeza Comida atipica mexicana.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Classiche italiane salse per accompagnare.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Club de guisanderas El libro de las guisanderas de Asturias.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Cocina America del Sur (2).pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Cocina America del Sur.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Cocina Francesa.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Cocina Gallega.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Cocina Italiana.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Cocina Vasca Jorge Beramendi - Desconocido.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Cocina china I paso a paso.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Cocina cubana 5 siglos de tradición.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Cocina italiana.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Cuina del mon/Cocina japonesa paso a paso.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Cocina mediterránea paso a paso.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Cocina mexicana paso a paso.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Cocina tradicional de la sierra de Cádiz.epub` | EPUB | escanejat | no | descartar | no |
+| `Cuina del mon/Cocina árabe I paso a paso.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Comida china.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Círculo de Lectores El gran libro de la cocina ecuatoriana.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/De rechupete Empanadas gallegas.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Editorial Blume Cocina tailandesa.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Cuina del mon/Editorial Espasa El gran libro de la cocina gallega.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Editorial konemann Cocina japonesa y coreana.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Editorial_Cocinamos_La_cocina_española.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/El gran libro del wok.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Emi Kazuko Comida japonesa.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Empanadas Gallegas.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Encarnación_Lenza_Recetas_tradicionales.mobi` | MOBI | no aplicable | no | descartar | no |
+| `Cuina del mon/Escapada a La India.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Fernando Ordoñez La gran cocina peruana.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Festín Griego (2).pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Festín Griego.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Fuga in India.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Gabriele Napolitano Entradas italianas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Cuina del mon/Gastronomía aragonesa.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Gobierno de Aragón Hoy comemos sin gluten.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Graciela Bajraj Las 105 recetas más famosas del mundo.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Cuina del mon/Gran menú americano.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Hawwaiian Pool Party.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Instituto Culinario de México Cocina árabe.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Japón es más que sushi.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Jaume Fàbrega La cocina de Menorca.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Joanna Farrow Cocina griega.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Jornadas gastronómicas de Castilla y León.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/José Aguilera La cocina de Almería.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/LIBRO+ARROCES+DE+ESPAÑA.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/La Verdadera Cocina Criolla.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/La cocina japonesa de Harumi.PDF` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/La cocina tradicional en Chiclana.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Las cocineras de Sils.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Las recetas de Isabella Cocina austro-hungara.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Cuina del mon/Libro de cocina tradicional del sur de Italia.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Cuina del mon/Lo mejor de la comida árabe.epub` | EPUB | escanejat | no | descartar | no |
+| `Cuina del mon/MARRUECOS.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Maria Adela Díaz Cocina murciana.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Maria José Martin Comida tradicional española.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Miriam Becker Pasión por la cocina judia.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Málaga Recetas populares.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/México está de fiesta.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Nora Pérez Salsas taqueras mexicanas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Cuina del mon/Nuestro libro de cocina vasca.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Osno Monto Empanada criolla y picadillo llanero.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Cuina del mon/Otilia Kusmin Delicias de la cocina rusa.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Pablo Castro La Cocina de la Serranía de Ronda.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Pablo Castro La cocina del entorno de los embalses.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Panaderia Mexicana 01.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Panaderia Mexicana 02.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Panaderia Mexicana 03.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Panaderia Mexicana 04.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Panaderia Mexicana 05.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Panaderia Mexicana 06.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Panaderia Mexicana 07.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Panaderia Mexicana 08.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Panaderia Mexicana 09.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Panaderia Mexicana 10.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Panaderia Mexicana 11.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Panaderia Mexicana 12.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Panaderia Mexicana 13.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Panaderia Mexicana 14.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Panaderia Mexicana 15.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Panaderia Mexicana 16.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Panaderia Mexicana 17.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Panaderia Mexicana 18.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Panaderia Mexicana 20.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Panadería Mexicana 19.PDF` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Plan andaluz de salud Cocina andaluza Dieta mediterránea.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/RECETAS TIPICAS GRIEGAS.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/REVISTASGOLD35K.Maxi  Marzo 2019.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Recetario cocina japonesa.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Recetario de Cocina Asiatica.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Recetario de Cocina Gallega.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Recetario tradicional aragonés del siglo XXI (2).pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Recetario tradicional aragonés del siglo XXI.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Recetas Cocina Arabé MArroqui.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Recetas de cocina arabe marroquí.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Recetas de cocina argentina.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Recetas mexicanas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Cuina del mon/Recetas mexicanas.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Recetas sabrosas Cocina china.epub` | EPUB | escanejat | no | descartar | no |
+| `Cuina del mon/SABORES DE ITALIA.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Saboreando Asturias.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Sabores de Chile para el mundo.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Sabores del mundo Cocina japonesa paso a paso.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/Salah Jamal Aroma arabe.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Cuina del mon/Supermaxi Italia al dente.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/TUTTO BACCALA BIMBY.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/TUTTO POLPETTONI BIMBY.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Taste_of_Persia_A_Cook’s_Travels_Through_Armenia,_Azerbaijan,_Georgia.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Todo sobre la cocina argentina server gardel.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Tutto bavarese.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Tutto frittata.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Tutto ravioli.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Tutto romagnolo.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/VIVA MÉXICO.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Vinaròs, la gastronomia.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Vincenzo y Rafaella Fabrocini La dieta mediterránea.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Viva México.doc` | DOC | escanejat | no | descartar | no |
+| `Cuina del mon/Yuka Kaneko Las mejores recetas de sushi.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/asia.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/comida de boteco.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/el-gran-libro-de-la-cocina-italiana.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cuina del mon/recetario_empanadas_gallegas.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/recetariococina-multicultural.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/recetas-cocina-italiana-web.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/recetas-halloween.pdf` | PDF | text | sí | ingerir | sí |
+| `Cuina del mon/Índia.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cultura culinaria/Atlas ilustrado de plantas medicinales y curativas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Cultura culinaria/COCINA AL VAPOR.pdf` | PDF | text | sí | ingerir | sí |
+| `Cultura culinaria/Carlos Abehsera Cocinar sin carbohidratos.epub` | EPUB | escanejat | no | descartar | no |
+| `Cultura culinaria/Cocina al instante Cocina bajo cero.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cultura culinaria/Dr Álvaro Campillo Alimentación para deportistas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Cultura culinaria/Editorial Grijalbo Guia de la verdura.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cultura culinaria/Editorial_Everest_El_gran_libro.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cultura culinaria/El libro de la cocina natural.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cultura culinaria/El_Sabor_en_Familia_Antología_de.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cultura culinaria/Elisabeth Lambert Enciclopedia de las especias.pdf` | PDF | text | sí | ingerir | sí |
+| `Cultura culinaria/Enciclopedia de las hierbas mágicas.pdf` | PDF | text | sí | ingerir | sí |
+| `Cultura culinaria/Escuela_Superior_de_Hostereria_de.pdf` | PDF | text | sí | ingerir | sí |
+| `Cultura culinaria/Frank Suarez El poder del metabolismo.pdf` | PDF | text | sí | ingerir | sí |
+| `Cultura culinaria/François_Couplan_Reconoce_facilmente.epub` | EPUB | escanejat | no | descartar | no |
+| `Cultura culinaria/Gloria Spencer  La Cocina Enzimatica.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cultura culinaria/Harinas Bufort Manual del panadero.pdf` | PDF | text | sí | ingerir | sí |
+| `Cultura culinaria/Hermann Schmidt  Las especias Condimentos vegetales.pdf` | PDF | text | sí | ingerir | sí |
+| `Cultura culinaria/Hervé This Los secretos de los pucheros.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Cultura culinaria/Integral El libro de las especias.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cultura culinaria/Jean Pedrazzani Los remedios de la abuela.pdf` | PDF | text | sí | ingerir | sí |
+| `Cultura culinaria/Jean Seignalet La alimentación La 3ª medicina.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Cultura culinaria/Jennifer Eloff Vamos a comer bajo en carbohidratos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Cultura culinaria/Joaquin Pérez Cocinar con una pizca de ciencia.pdf` | PDF | text | sí | ingerir | sí |
+| `Cultura culinaria/John_Seymour_La_conservacion_de.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cultura culinaria/Jose Luis Armendariz Técnicas de cocina para profesionales.pdf` | PDF | text | sí | ingerir | sí |
+| `Cultura culinaria/Jose Luis Armendáriz Técnicas de cocina para profesionales.pdf` | PDF | text | sí | ingerir | sí |
+| `Cultura culinaria/La cocina aromatica - Francois Chartier.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Cultura culinaria/La cocina de la congelación.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cultura culinaria/Laura Landra Como conservar fruta y verdura.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Cultura culinaria/Libro de recetas del aula de hosteleria curso 2008-2009.pdf` | PDF | text | sí | ingerir | sí |
+| `Cultura culinaria/Low carb ¡Come sano!.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Cultura culinaria/Manual del aspirante a chef - MasterChef.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Cultura culinaria/Manual práctico sobre pescados y mariscos frescos.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cultura culinaria/Manuel Arasa Gil Manual de nutrición deportiva.pdf` | PDF | text | sí | ingerir | sí |
+| `Cultura culinaria/Maria Jesus Gil de Antuñano Escuela de cocina.pdf` | PDF | text | sí | ingerir | sí |
+| `Cultura culinaria/Masterchef Manual del aspirante a chef.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cultura culinaria/PARA DEPORTISTAS.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cultura culinaria/REVISTASGOLD31K. 12-18-CocinaVital.pdf` | PDF | escanejat | sí | descartar | no |
+| `Cultura culinaria/Saturnino Calleja Manual de la cocinera.pdf` | PDF | text | sí | ingerir | sí |
+| `Cultura culinaria/Sergio Casado Una aventura en el mundo de la cocina.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Gourmand_29_Janvier_2020 .pdf` | PDF | escanejat | sí | descartar | no |
+| `Guisats i estofats/Estofados.pdf` | PDF | escanejat | sí | descartar | no |
+| `Guisats i estofats/Guisos de patata.pdf` | PDF | escanejat | sí | descartar | no |
+| `Guisats i estofats/IX jornadas gastronómicas de la cazuela y los guisos.pdf` | PDF | text | sí | ingerir | sí |
+| `Guisats i estofats/V Jornadas gastronómicas de la cazuela y los guisos.pdf` | PDF | text | sí | ingerir | sí |
+| `Guisats i estofats/VI Jornadas gastronómicas de la cazuela y los guisos.pdf` | PDF | text | sí | ingerir | sí |
+| `Guisats i estofats/VII jornadas gastronómicas de la cazuela y los guisos.pdf` | PDF | text | sí | ingerir | sí |
+| `Guisats i estofats/VIII jornadas gastronómicas de la cazuela y los guisos.pdf` | PDF | text | sí | ingerir | sí |
+| `Guisats i estofats/losguisosdelaabuela.pdf` | PDF | text | sí | ingerir | sí |
+| `Postres/1 MOLDE 10 RECETAS.pdf` | PDF | text | sí | ingerir | sí |
+| `Postres/100 Dulces Y Postres - Patry Jordan.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/12 Recetas de galletas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/30 recetas prácticas Postres rápidos.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/555 Recetas de postres - Eva Arguinano.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Angela García Tartas del mundo.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Aprenda a hacer dulzuras caseras.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Arte del azucar 01.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Arte del azucar 02.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/BOLLERÍA CASERA .pdf` | PDF | text | sí | ingerir | sí |
+| `Postres/Bea Roque El rincón de Bea Delicias para compartir.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Postres/Bimbo - Recetas de Cuaresma.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Bricoreposteria - VVAA.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Postres/Cecilia Paseiro Pastelería artesanal.pdf` | PDF | text | sí | ingerir | sí |
+| `Postres/Cheesecakes.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Chef Express Postres livianos.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Chocolate Recetas que explotan sus sentidos.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Cioccolate.pdf` | PDF | text | sí | ingerir | sí |
+| `Postres/Cocina fácil Dulces de Navidad.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Curso alta reposteria chocolates turin.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Dolcezze tirolesi.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Dolci ma non troppo.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Dolci sorprese Galette des rois.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Dolci sorprese.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Dulce Tentación (México).pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Dulces Navideños.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Edición chocolate.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Editorial El Pais Siete Pecados.pdf` | PDF | text | sí | ingerir | sí |
+| `Postres/Editorial NGV Helados, sorbetes y otros.epub` | EPUB | escanejat | no | descartar | no |
+| `Postres/El libro de oro de la reposteria para ti.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/El rincón de los postres.pdf` | PDF | text | sí | ingerir | sí |
+| `Postres/Emily Scott Los 10 postres más famosos del mundo.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Postres/Festín de Sri Lanka.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Flan y pudín.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Fruta natural.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/GRANDES TARTAS.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Gabriele Colditz Fruta escarchada.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Giuliana Bonomo Guía de dulces.pdf` | PDF | text | sí | ingerir | sí |
+| `Postres/HELADOS Y SORBETES. VOL. I.pdf` | PDF | text | sí | ingerir | sí |
+| `Postres/José Maréchal Sabrosas tentaciones en vasitos.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Juan Diaz La pequeña cuisiniere.epub` | EPUB | escanejat | no | descartar | no |
+| `Postres/La cocina de Sumito Postres para impresionar.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/La magia del chocolate.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Las 100 mejores recetas dulces de Ana Sevilla.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Las mejores gelatinas presenta flanes.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Les meilleurs de mini cakes.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Lo mejor de la leche dulce num. 33.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Lolita Avellana Les postres de casa meva.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Postres/MAGDALENAS.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Masterclass Tartas increibles.pdf` | PDF | text | sí | ingerir | sí |
+| `Postres/Maxine Clark Tartas dulces y saladas.epub` | EPUB | escanejat | no | descartar | no |
+| `Postres/Montagud Editores Pastry Revolution.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Muffin dolci e salati.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Muffins Dulces y salados.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/NGV Super muffins.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Nestlé ¡A comer bien! Recetas para postres.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/POSTRES INDIVIDUALES.pdf` | PDF | text | sí | ingerir | sí |
+| `Postres/Panadería y pastelería profesional.pdf` | PDF | text | sí | ingerir | sí |
+| `Postres/Panquecitos.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Panqués.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Pasteleria y reposteria Curso avanzado.epub` | EPUB | escanejat | no | descartar | no |
+| `Postres/Pastelería artesana num. 03.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Postres/Postres de Navidad-1.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Postres del Mediterráneo.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Postres del mundo.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Postres en vaso - VVAA.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Postres/Postres para celebrar.pdf` | PDF | text | sí | ingerir | sí |
+| `Postres/Postres y Dulces Galletas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Postres y dulces Flanes.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Pralinky.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/REPOSTERÍA Y PASTELERÍA I.pdf` | PDF | text | sí | ingerir | sí |
+| `Postres/Receitas-Pequenas-Delicias.pdf` | PDF | text | sí | ingerir | sí |
+| `Postres/Receta-Roscon-Reyes-LeCreuset.pdf` | PDF | text | sí | ingerir | sí |
+| `Postres/Recetario El Horno de Villablanca'.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Recetas de cremas, mousses y helados.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Recetas inedittas do convento para a bimby.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/SABOR A CHOCOLATE.pdf` | PDF | text | sí | ingerir | sí |
+| `Postres/Saints Román Postres y otras recetas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Postres/Xavier Barriga Cocas, tortas y otras delicias.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/YOGURES.pdf` | PDF | text | sí | ingerir | sí |
+| `Postres/galletas caseras.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/recetas-chocolate (1).pdf` | PDF | text | sí | ingerir | sí |
+| `Postres/Ángela García & Hanns Geel - Tartas del mundo.pdf` | PDF | escanejat | sí | descartar | no |
+| `Postres/Éclair per una merenda chic.pdf` | PDF | escanejat | sí | descartar | no |
+| `REVISTASGOLD26K,1112-18-dcamera-byneon.pdf` | PDF | escanejat | sí | descartar | no |
+| `Receptes/100 recetas premiadas Tulipan.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Receptes/Cocina con garrote - Martin Berasategui.kepub.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Receptes/Grandes Recetas Para Cocinas Pequeñas - Marta Carnicero.pdf` | PDF | text | sí | ingerir | sí |
+| `Receptes/Karlos Arguiñano Cocina día a día.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Receptes/Libro de recetas Sencillo & saludable.mobi` | MOBI | no aplicable | no | descartar | no |
+| `Receptes/Maravillosas-Recetas-de-La-Abuela-pdf.pdf` | PDF | text | sí | ingerir | sí |
+| `Receptes/MasterChef - Las Recetas De Marta.pdf` | PDF | text | sí | ingerir | sí |
+| `Receptes/Recetario blog Exquisit 2014.pdf` | PDF | text | sí | ingerir | sí |
+| `Receptes/Recetario blog Exquisit Recetas de sopas y cremas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Receptes/Recetario blog exquisit 2015.pdf` | PDF | text | sí | ingerir | sí |
+| `Receptes/Recetario blog exquisit 2016.pdf` | PDF | text | sí | ingerir | sí |
+| `Receptes/Recetario blog exquisit 2017.pdf` | PDF | text | sí | ingerir | sí |
+| `Receptes/Recetario blog exquisit 40 exquisitos bocadillos.pdf` | PDF | text | sí | ingerir | sí |
+| `Receptes/Recetario_blog_Exquisit_Recetas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Receptes/Velocidad cuchara  Lo mejor del blog.pdf` | PDF | escanejat | sí | descartar | no |
+| `Receptes/cocina fácil lecturas.rar` | RAR | no aplicable | no | descartar | no |
+| `Receptes/recetas con humor.pdf` | PDF | text | sí | ingerir | sí |
+| `Thermomix/01_Thermomix_-_Mis_Mejores_Recetas_-_Cristina_Galiano.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/10.- A todo vapor TMX31.Johnnygan.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/24.- Las Recetas De La Abuela II.Johnnygan.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/4.- 100 Recetas practicas.Johnnygan.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/43.- Imprescindible para su cocina.Johnnygan.pdf` | PDF | text | sí | ingerir | sí |
+| `Thermomix/5.- 100 nuevas recetas.Johnnygan.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/Al calor de un caldo.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/BAOS.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/BARBACOA ESPECIAL Y DIFERENTE.pdf` | PDF | text | sí | ingerir | sí |
+| `Thermomix/BARRETTE DALLA COMMUNITY.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/Como en casa.pdf` | PDF | text | sí | ingerir | sí |
+| `Thermomix/DIETA MEDITERRANEA CON THERMOMIX.pdf` | PDF | text | sí | ingerir | sí |
+| `Thermomix/De cuchara.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/DeliciosoYRapido.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/EXPERIENCIA GASTRONÓMICA Thermomix TM5.pdf` | PDF | text | sí | ingerir | sí |
+| `Thermomix/Food Truck una fiesta de sabores.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/Gran Bretaña.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/Il cibo degli atleti.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/Kale.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/Kinder.pdf` | PDF | text | sí | ingerir | sí |
+| `Thermomix/Maravillosas-Recetas-de-La-Abuela-pdf.pdf` | PDF | text | sí | ingerir | sí |
+| `Thermomix/Pastillas de caldo.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/Picoteo de Cine.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/RECETAS DE DIARIO.pdf` | PDF | text | sí | ingerir | sí |
+| `Thermomix/Recetas del  mundo para cocinar a diario.pdf` | PDF | text | sí | ingerir | sí |
+| `Thermomix/SMOOTHIE BOWLS THERMOMIX .pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/Simple & Dulce con thermomix.pdf` | PDF | text | sí | ingerir | sí |
+| `Thermomix/Thermomix 135 - Enero 2020.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/Thermomix 40 AÑOS.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/Thermomix Marzo 2017.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/Thermomix marzo 2020.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/Thermomix num. 123 Enero 2019.pdf` | PDF | text | sí | ingerir | sí |
+| `Thermomix/Thermomix num. 126  Abril 2019.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/Thermomix num. 127 Mayo 2019.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/Thermomix num. 128 Junio 2019.pdf` | PDF | text | sí | ingerir | sí |
+| `Thermomix/Thermomix num. 129 Julio 2019.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/Thermomix num. 130 Agosto 2019.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/Thermomix num. 131 Septiembre 2019.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/Thermomix num. 132 Octubre 2019.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/Thermomix num. 133 Noviembre 2019.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/Thermomix num. 134 Diciembre 2019.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/Thermomix num. 135 Enero 2020.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/Thermomix num. 138 Abril 2020.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/Thermomix septiembre 2018.pdf` | PDF | text | sí | ingerir | sí |
+| `Thermomix/VOLANDO VOY alitas de pollo.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/adelgazar con thermomix.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/recetas_especiales.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/reposteria tmx.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/{RDL} 08-19-Thermomix.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/{RL} 05-20-Thermomix.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/{RL} 09-19-Thermomix.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/{RL} 10-19-Thermomix.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/{RL} 11-19-Thermomix.pdf` | PDF | escanejat | sí | descartar | no |
+| `Thermomix/{RL} Thermomix Un nuevo amanecer.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Amanides/Club gente saludable Ensaladas.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Amanides/De rechupete Recetas de ensalada.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Amanides/Ensaladas Para Todo El Año - Martín Berasategui.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Amanides/Ensaladas XXL.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Amanides/Ensaladas para todo el año - Martin Berasategui.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Amanides/Ensaladas y aliños.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Amanides/Pon una ensalada en tu verano 2016.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Amanides/Por una ensalada en tu verano 2013.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Amanides/Supermaxi Ensaladas para toda ocasión.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Amanides/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Amanides/recetario_ensaladas.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Amb nens/Divertirsi in cucina.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Amb nens/Junior Masterchef Recetas para cocinar con niños.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Amb nens/Niños _a comer!.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Amb nens/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Arros/Angelica Sasaki Cocina en 30 minutos Arroces.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Arros/Arroces Valencianos.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Arros/Arroz un básico 5 recetas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Arros/Cocinar arroces con fantasia.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Arros/Especial arroces Vol II.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Arros/Especial arroces.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Arros/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Autor/Chiringuito de Pepe Las recetas de Pepe Leal y Sergi Roca.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Autor/Cocina_con_Joan_Roca_a_baja_tem.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Autor/Grandes chefs.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Autor/Joan Roca Cocina con Joan Roca a baja temperatura.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Autor/Juan Mari Arzak Arzak.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Autor/Karlos Arguiñano 1000 recetas de oro.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Autor/Las 1150 recetas - Martín Berasategui.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Autor/Martín Berasategui Cocina en casa con Martín Berasategui.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Autor/Martín Berasategui La cocina de Martín Berasategui.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Autor/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Cacera/VII jornadas gastronómicas de la caza.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Cacera/VIII jornadas gastronómicas de la caza.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Cacera/X Jornadas gastronómicas de la caza.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Cacera/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Casolana/9ª Jornadas Gastronómicas de la caza.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Casolana/Asados con guarnición.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Casolana/Carnes rojas y blancas.epub` | EPUB | escanejat | no | descartar | no |
+| `Tipus de Cuina/Casolana/Cocina Exótica del Mediterráneo.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Casolana/Con carne de ave.epub` | EPUB | escanejat | no | descartar | no |
+| `Tipus de Cuina/Casolana/Con huevo o masa.epub` | EPUB | escanejat | no | descartar | no |
+| `Tipus de Cuina/Casolana/De verduras y hortalizas.epub` | EPUB | escanejat | no | descartar | no |
+| `Tipus de Cuina/Casolana/Empanadas y empanadillas.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Casolana/Especial Albóndigas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Casolana/Fritos & Cía.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Casolana/I Jornada gastronómicas del ajo.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Casolana/Joan Roca Cuina mare.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Casolana/Juan José Yagüe Cocina marinera.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Casolana/La magia del vapore.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Casolana/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Casolana/¡COMO EN CASA!.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Celíac/COCINA SIN GLUTEN VOL. II.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Celíac/Cocina Fácil para Celíacos con TMX.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Celíac/Cocina sin gluten.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Celíac/De rechupete Recetas para celiacos.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Celíac/Fabio Dana La vida sin gluten.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Celíac/Gobierno de Aragón Hoy comemos sin gluten (2).pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Celíac/REVISTASGOLD29K.2018-11-01 Gluten-Free Heaven.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Celíac/Restauración Sin Glúten.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Celíac/SIN GLUTEN. SIN LIMITES.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Celíac/Yo, celiaco - Fabio Dana.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Celíac/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Celíac/recetario_celiacos.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Cervesa i begudes/Cócteles clásicos.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Cervesa i begudes/DE COPAS.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Cervesa i begudes/I jornadas gastronómicas de la cerveza.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Cervesa i begudes/I jornadas gastronómicas del vino Montilla-Moriles.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Cervesa i begudes/II jornadas gastronómicas de la cerveza.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Cervesa i begudes/III jornadas gastronómicas de la cerveza.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Cervesa i begudes/IV jornadas gastronómicas de la cerveza.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Cervesa i begudes/La guia del barman.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Cervesa i begudes/V jornadas gastronómicas de la cerveza.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Cervesa i begudes/Xavier Garcia La cerveza en España.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Cervesa i begudes/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Cocina de aprovechamiento .epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Compotas & Conservas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Conserves/COCINA CON CONSERVAS.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Conserves/Conservas de fruta y verdura.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Conserves/Cursos prácticos Conservas saladas y dulces.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Conserves/José Maillet El confitero moderno.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Conserves/La botica de la abuela Tisanas y jarabes deliciosos.epub` | EPUB | escanejat | no | descartar | no |
+| `Tipus de Cuina/Conserves/Mermeladas y compotas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Conserves/Oded Schwartz Conservas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Conserves/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/DESAYUNOS.PARA SOÑAR.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/El Gran Libro De La Cocina Rapida - Paola Sala.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/El_Pan_Manual_De_Técnicas_Y_Recetas_De_Panadería_Jeffrey_Hamelman.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Entrepans/Carlos Crespo Un buen bocadillo.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Entrepans/Cocina al instante Bocatas a la carta.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Entrepans/Cocina para llevar Bocadillos.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Entrepans/Un buen bocadillo - Carlos Crespo.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Entrepans/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Eva y Ulrich Klever El gran libro de las fondues.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Festa/@malu320    04-19-Gourmet.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Festa/Aperitivos y canapes.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Festa/Carnevale salato.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Festa/Carolina Ferrer Menú de fiestas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Festa/Como cocinar aperitivos y entrantes.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Festa/Darwin Solorzano Cocina para sorprender.epub` | EPUB | escanejat | no | descartar | no |
+| `Tipus de Cuina/Festa/La marquesa de Parabere Entremeses, aperitivos y ensaladas.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Festa/Maria Jesus Gil de Antuñano Cocina para invitados.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Festa/NGV Bocados para fiestas.epub` | EPUB | escanejat | no | descartar | no |
+| `Tipus de Cuina/Festa/RECIBIR CON ARTE.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Festa/Recetas para un día especial.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Festa/SORPRENDE A  TUS INVITADOS.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Festa/Taller comida de fiesta Verano 2019.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Festa/UN TOQUE GOURMET.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Festa/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Food.Heaven.Presents.Bread.2020.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Fàcil/21 recetas de primavera (cocina para emancipados).pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Fàcil/50 recetas de verano - cocina para emancipados.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Fàcil/Angelita Alfaro Cocina para estudiantes.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Fàcil/Cheap & cheerful.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Fàcil/Cocina_Exotica_Al_Alcance_De_Todos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Fàcil/FÁCIL Y RÁPIDO VOL. II.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Fàcil/FÁCIL Y RÁPIDO. VOL. I.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Fàcil/Gallina Blanca Cocina para papá.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Fàcil/INSPIRACIÓN para el día a día.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Fàcil/Ligeras para dos.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Fàcil/Liz Franklin Platos exprés.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Fàcil/Marcos H. S. Nosotros cocinamos recien casados.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Fàcil/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Hamburguesa i fast food/BURGUERS THERMOMIX .pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Hamburguesa i fast food/Brochetas fáciles y rápidas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Hamburguesa i fast food/Burguers irresistibles.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Hamburguesa i fast food/Burguers saludables.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Hamburguesa i fast food/FAST FOOD PARA SIBARITAS.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Hamburguesa i fast food/Fast Food Saludable.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Hamburguesa i fast food/Food Truck una fiesta de sabores.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Hamburguesa i fast food/Food Truck.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Hamburguesa i fast food/Hamburguesas Las mejores recetas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Hamburguesa i fast food/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Ibèric/III_jornadas_gastronómicas_del_iberico.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Ibèric/II_Jornadas_Gastronómicas_del_iberico.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Ibèric/IV_jornadas_gastronómicas_del_iberico.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Ibèric/V_jornadas_gastronómicas_del_iberico.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Ibèric/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Julia Osuna Cocina canalla.epub` | EPUB | escanejat | no | descartar | no |
+| `Tipus de Cuina/LIGERAS.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Las_mejores_recetas_con_marihuana.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/M. Palla Entrantes y entremeses.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/MENÚS COMPLETOS.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/María Victoria Llamas El libro del microondas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Masas Editable.docx` | DOCX | text | sí | ingerir | sí |
+| `Tipus de Cuina/Masas Editable.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/MasterChef Cocina de aprovechamiento.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Mattis Lundqvist 50 recetas de alta proteína.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Mattis Lundqvist 50 recetas de cocción lenta con carne.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Mattis Lundqvist 50 recetas de enchiladas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Nadal/Blanca Navidad.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Nadal/Buffet Navideño.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Nadal/Cocina para emancipados Recetas de Navidad 2016.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Nadal/Enric Monzonis Recetas de Navidad 2017.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Nadal/Feliz Navidad.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Nadal/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Oggi... frutta.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Pa/22.- Pan Bolleria.Johnnygan.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Pa/Elaboració casolana de pa i pastes.epub` | EPUB | escanejat | no | descartar | no |
+| `Tipus de Cuina/Pa/Elaboración Artesanal del Pan.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Pa/Maria Lunarillos Panes.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Pa/Panes creativos.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Pa/Rolando Alvarado Manual de formulas y saberes de panadería.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Pa/Rosa Tovar Masas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Pa/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Pa/el libro del pan 1.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Pa/Área Gastronomía Manual de panadería.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Paco Blanco Crockpot.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Para untar.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Pasta/Ema García Recetas de pasta y fideos.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Pasta/Ema García Recetas de plato principal de pasta.pdf` | PDF | text | sí | ingerir | no |
+| `Tipus de Cuina/Pasta/Masas saladas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Pasta/Monica Ponttiroli Pastas caseras.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Pasta/Nicol Pardo Pizzas y pastas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Pasta/TODO PASTA.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Pasta/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Pasta/🇮🇹. Pizza e Pasta Italiana. January 2020.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Per Endur/20 Recetas express para un mes de tupper.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Per Endur/Cocina para llevar al trabajo.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Per Endur/De rechupete Recetas de táper para el curro.mobi` | MOBI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Per Endur/Gallina Blanca Cocina para llevar al trabajo.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Per Endur/Lunch Box.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Per Endur/PARA LLEVAR (2).pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Per Endur/Para llevar Comer fuera como en casa.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Per Endur/Para llevar de picnic.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Per Endur/Para llevar.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Per Endur/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Per Endur/recetario_picnic.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Pescado y marisco.epub` | EPUB | escanejat | no | descartar | no |
+| `Tipus de Cuina/Pescado ¡ Buen provecho !.epub` | EPUB | escanejat | no | descartar | no |
+| `Tipus de Cuina/Pescados y mariscos.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Pizza/Maxine Clark Pizza, calzone & Focaccia.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Pizza/Nicol Pardo Pizzas y pastas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Pizza/Pizza e Pasta Italiana Febbraio 2020.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Pizza/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Pizza/🇮🇹. Pizza e Pasta Italiana. January 2020.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/RECETARIO DE BATIDOS.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/RECETAS PRODUCTOS DEL MAR.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/RICO BATIDO. MADE IN USA.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Raw Food.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Recetas de patés.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Recetas de pescados.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Recetas de zumos.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Recetas_Saludables_Julio_2017 (1).pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Roberto Peralta Los secretos de la cocina con microondas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/SIN LACTOSA.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Sabor a bosque.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Salses/Claudia_Viviana_Hernández_Salsas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Salses/El monstruo de las recetas 70 recetas de salsas fáciles.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Salses/Giorgio Stuart Las mejores salsas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Salses/José María Campos La elaboración de las salsas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Salses/Modern_Sauces_More_than_150_Recipes_for_Every_Cook,_Every_Day_Martha.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Salses/Muchogusto.net Recetas caseras de salsas para pastas.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Salses/Practilibros Salsas y vinagretas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Salses/Recetario Especial Sofritos.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Salses/Salsas, pan y queso.epub` | EPUB | escanejat | no | descartar | no |
+| `Tipus de Cuina/Salses/Salse.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Salses/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Sano e leggero Piatti unici.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Sapori di montagna.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Secondi di carne.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Sopa/Al calor de un caldo.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Sopa/Aurora Abarca Las sopas de Aurora.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Sopa/CREMAS CALIENTES VOLUMEN II.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Sopa/CREMAS CALIENTES. VOL I.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Sopa/CREMAS Y SOPAS FRÍAS.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Sopa/Cocina Popular Sopas poderosas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Sopa/Editorial Blume Selección culinaria Sopas.mobi` | MOBI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Sopa/SOPAS CON TROPEZÓN.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Sopa/Sopas (Selección culinaria).pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Sopa/Sopas Detox - Nicole Pisani y Kate Adams.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Sopa/Sopas Exquisitas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Sopa/Sopas frías. Refrescate con cuchara.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Sopa/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Sopa/doce-recetas-de-gazpacho-ajoblanco-y-sopas-frias (1).pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Supermaxi Los secretos de la carne.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Tapes/101 recetas de tapas.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Tapes/DE TAPEO. APERITIVOS Y TAPAS.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Tapes/De Tapas Con Quique Dacosta.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Tapes/Gallina_Blanca_Aperitivos_para_deleitar.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Tapes/Mundorecetas Recetas saladas de picoteo 1ª parte.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Tapes/Mundorecetas Recetas saladas de picoteo 2ª parte.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Tapes/Pedrito Rico Tapas Gourmet.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Tapes/Pedro Martín Donosti pintxo a pintxo.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Tapes/Recetario aperitivos y canapés.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Tapes/Recetario blog Exquisit Ideas para picar.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Tapes/Salvador Arimany Canapès a l'abast de tothom.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Tapes/Santiago(e)Tapas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Tapes/Sylvie Ait-Ali 30 recetas de aperitivos para cenar.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Tapes/Tapas & Pinchos.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Tapes/Tapas con rock 'n' roll - Jordi Cruz.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Tipus de Cuina/Tapes/Tapas y Montaditos.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Tapes/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Temporada/Chef Oropeza Sabores de verano.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Temporada/Cocina con aroma a Primavera.pdf` | PDF | text | sí | ingerir | sí |
+| `Tipus de Cuina/Temporada/Primavera.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Temporada/Verano Recetas de temporada.pdf` | PDF | escanejat | sí | descartar | no |
+| `Tipus de Cuina/Temporada/desktop.ini` | INI | no aplicable | no | descartar | no |
+| `Tipus de Cuina/Temporada/temporada_octubre.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/500 Recetas Vegetarianas - Sandra figueroa y Consuelo Bedoya.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/@malu320    04-19-Cocina Vegana.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/@malu320   Cocina Vegetariana - abril 2019.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/@malu320 05-19-Cocina Vegetariana.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/@malu320 05-19-Extra Cocina Vegetariana.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/@malu320-Cocina Vegana - febrero 2019(1).pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/Ana Moreno Curso completo de cocina vegetariana.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/Antonio Castellanos Top 30 recetas veganas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Vegetariana/COCINA  VEGETARIANA.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/COCINA VEGETARIANA VOL II.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/COCINA VEGETARIANA.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/Cocina Vegetariana - abril 2020.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/Cocina Vegetariana 02-20.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/Cocina Vegetariana Platos principales.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/Cocina Vegetariana Recetas rápidas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/Cocina Verde - Rodrigo de la Calle.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/Cocina fácil para vegetarianos y veganos.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/Cocina vegetariana (2).pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/Cocina vegetariana cookidoo.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/CreatiVegan Como hacer galletas veganas.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/CreatiVegan Menú de Navidad 2011.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/CreatiVegan Menú de Navidad 2012.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/CreatiVegan Minirecetario especial Biocultura.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/CreatiVegan Navidad 2016.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/CreatiVegan Recetario festivo 2013.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/CreatiVegan Recetario vegano nochevieja y año nuevo.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/CreatiVegan Recetas festivas 2014.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/Dr. Eduardo Alfonso Cocina vegetariana.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/Dulces navideños veganos.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/Gigi Ro Las mejores hamburguesas veganas y vegetarianas.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/Guia de iniciación de dieta vegetariana.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/Ignacio Domenech La cocina vegetariana moderna.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/Jack Norris Veganos para siempre.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/La cocina vegetariana de Marta.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/Michael Chung La biblia de smoothies verdes.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Vegetariana/Noemí Cervantes 50 recetas vegetarianas.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Vegetariana/Pasqua vegetariana.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/Pequeña biblia de la cocina vegetariana.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/REVISTASGOLD22K-COCINAVEGETARIANA.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/REVISTASGOLD29K.12-18-cvegetariana-byneon.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/Recetario Granvita 2017.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/Recetario vegano.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/Recetario vegetariano internacional.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/Recetas vegetarianas fáciles Parte I.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/Recetas vegetarianas fáciles Parte II.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/Ricas recetas veganas con sabor latino.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Vegetariana/SOY VEGANO. VOL II.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/SOY VEGANO.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/Sally Reyes Dieta vegana.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Vegetariana/Sandra Figueroa de Castro Cocina vegetariana.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/Soy Vegano vol III.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/Stella Osterhoff Smoothies verdes.epub` | EPUB | escanejat | no | descartar | no |
+| `Vegetariana/Susaeta Cocina vegetariana.epub` | EPUB | escanejat | no | descartar | no |
+| `Vegetariana/Susaeta Recetas con verduras.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/Vegetarian N27 MarzoAprile 2020 .pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/Vida y cocina vegana nº 3.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/We Veg N62 Marzo 2020 .pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/Xabier Arguiñaz Cocina vegetariana.epub` | EPUB | text | no | convertir a DOCX o Markdown (pendent de confirmació) | no |
+| `Vegetariana/cocina vegetariana num 109.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 101.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 103.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 104.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/cocina vegetariana num. 105.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 106.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 108.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 22.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 42.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 43.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 44.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 45.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 46.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 47.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 48.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 49.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 50.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 51.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 52.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 53.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 55.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 57.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 60.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/cocina vegetariana num. 62.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/cocina vegetariana num. 63.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 94.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina vegetariana num. 95.pdf` | PDF | text | sí | ingerir | sí |
+| `Vegetariana/cocina vegetariana num. 97.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/cocina_vegetariana_2018_07_01.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/extra cocina vegetariana num. 03.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/extra cocina vegetariana num. 19.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/extra cocina vegetariana num. 21.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/vida y cocina vegana nº 2.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/{RDL} 08-19-Cocina Vegetariana.pdf` | PDF | escanejat | sí | descartar | no |
+| `Vegetariana/{RL} 01-20-Cocina Vegetarinana.pdf` | PDF | escanejat | sí | descartar | no |
+| `temporada_octubre.pdf` | PDF | text | sí | ingerir | sí |
