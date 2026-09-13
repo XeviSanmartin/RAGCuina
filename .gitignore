@@ -1,0 +1,18 @@
+# Python i entorn local
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Secrets
+.env
+.secrets/
+
+# Dades i artefactes generats, preservant les carpetes buides
+docs/*
+!docs/.gitkeep
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+dist/
